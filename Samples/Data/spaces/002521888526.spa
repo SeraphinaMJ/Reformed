@@ -1,0 +1,108 @@
+{
+    "type_name": "space",
+    "variable_name": "world space",
+    "members": [
+        {
+            "type_name": "gameObjects",
+            "variable_name": "gameObjects",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "Player",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 1658116250
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "Main Camera",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 3079344717
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "Controls",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 1208034867
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "reticle_emitter",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 1980002246
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "ScoreTracker",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 388979792
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "cheat_code_object",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 529110558
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "MinionSelector",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 1436760768
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        },
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 2521888526
+        },
+        {
+            "type_name": "bool",
+            "variable_name": "shouldDeleteOnLoad",
+            "data": true
+        }
+    ],
+    "array": []
+}

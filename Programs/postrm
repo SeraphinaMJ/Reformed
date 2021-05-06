@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+    failed-upgrade|abort-install|abort-upgrade)
+        exit 0
+    ;;
+esac
+

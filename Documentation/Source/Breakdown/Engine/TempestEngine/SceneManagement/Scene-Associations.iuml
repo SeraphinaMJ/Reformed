@@ -1,0 +1,4 @@
+    namespace SceneManagement {
+        Scene o-down-> GameObjectFiltering::GameObjectCollector : go_collector
+        Scene o-down-> "*" Space : spaces
+    }

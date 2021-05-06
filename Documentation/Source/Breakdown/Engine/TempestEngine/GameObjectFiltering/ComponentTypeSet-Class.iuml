@@ -1,0 +1,9 @@
+    namespace GameObjectFiltering {
+        class ComponentTypeSet {
+            +SetType()
+            +Reset()
+            +operator==()
+            +operator<()
+            +IsEmpty()
+        }
+    }

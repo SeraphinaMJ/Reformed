@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Editor\Components\InputRenderer.cpp" />
+    <ClCompile Include="Editor\NavMeshWindow.cpp" />
+    <ClCompile Include="Editor\Components\ButtonRenderer.cpp" />
+    <ClCompile Include="Editor\Components\ComponentRenderer.cpp" />
+    <ClCompile Include="Editor\Components\RendererRenderer.cpp" />
+    <ClCompile Include="Editor\Components\SampleRenderer.cpp" />
+    <ClCompile Include="Editor\CSVParser.cpp" />
+    <ClCompile Include="Editor\DataSelect.cpp" />
+    <ClCompile Include="Editor\EditorWindow.cpp" />
+    <ClCompile Include="Editor\EngineController.cpp" />
+    <ClCompile Include="Editor\HierarchyRenderer.cpp" />
+    <ClCompile Include="Editor\HierarchySelectionKeeper.cpp" />
+    <ClCompile Include="Editor\HierarchyWindow.cpp" />
+    <ClCompile Include="Editor\imguifilesystem.cpp" />
+    <ClCompile Include="Editor\InspectorRenderer.cpp" />
+    <ClCompile Include="Editor\InspectorWindow.cpp" />
+    <ClCompile Include="Editor\main.cpp" />
+    <ClCompile Include="Editor\Renderers\GizmoRenderer.cpp" />
+    <ClCompile Include="Editor\Renderers\ToggleButton.cpp" />
+    <ClCompile Include="Editor\Components\RigidBodyRenderer.cpp" />
+    <ClCompile Include="Editor\Scaffolding\RenderableBase.cpp" />
+    <ClCompile Include="Editor\Scaffolding\WindowBase.cpp" />
+    <ClCompile Include="Editor\SceneWindow.cpp" />
+    <ClCompile Include="Editor\StyleKeeper.cpp" />
+    <ClCompile Include="Editor\ToolbarRenderer.cpp" />
+    <ClCompile Include="ThirdParty\imgui-docking\examples\imgui_impl_glfw.cpp" />
+    <ClCompile Include="ThirdParty\imgui-docking\examples\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="ThirdParty\imgui-docking\imgui.cpp" />
+    <ClCompile Include="ThirdParty\imgui-docking\imgui_demo.cpp" />
+    <ClCompile Include="ThirdParty\imgui-docking\imgui_draw.cpp" />
+    <ClCompile Include="ThirdParty\imgui-docking\imgui_widgets.cpp" />
+    <ClCompile Include="ThirdParty\imgui-docking\misc\cpp\imgui_stdlib.cpp" />
+    <ClCompile Include="ThirdParty\ImGuizmo-master\ImGuizmo.cpp" />
+    <ClCompile Include="ThirdParty\ImGuizmo-master\ImSequencer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Editor\Components\InputRenderer.hpp" />
+    <ClInclude Include="Editor\EditorLogger.hpp" />
+    <ClInclude Include="Editor\NavMeshWindow.hpp" />
+    <ClInclude Include="Editor\Components\ButtonRenderer.hpp" />
+    <ClInclude Include="Editor\Components\ComponentRenderer.hpp" />
+    <ClInclude Include="Editor\Components\RendererRenderer.hpp" />
+    <ClInclude Include="Editor\Components\SampleRenderer.hpp" />
+    <ClInclude Include="Editor\CSVParser.hpp" />
+    <ClInclude Include="Editor\DataSelect.hpp" />
+    <ClInclude Include="Editor\dirent_portable.h" />
+    <ClInclude Include="Editor\EditorState.hpp" />
+    <ClInclude Include="Editor\EditorWindow.hpp" />
+    <ClInclude Include="Editor\EngineController.hpp" />
+    <ClInclude Include="Editor\HierarchyRenderer.hpp" />
+    <ClInclude Include="Editor\HierarchySelectionKeeper.hpp" />
+    <ClInclude Include="Editor\HierarchyWindow.hpp" />
+    <ClInclude Include="Editor\imguifilesystem.h" />
+    <ClInclude Include="Editor\InspectorRenderer.hpp" />
+    <ClInclude Include="Editor\InspectorWindow.hpp" />
+    <ClInclude Include="Editor\Renderers\GizmoRenderer.hpp" />
+    <ClInclude Include="Editor\Renderers\ToggleButton.hpp" />
+    <ClInclude Include="Editor\Components\RigidBodyRenderer.h" />
+    <ClInclude Include="Editor\Scaffolding\RenderableBase.hpp" />
+    <ClInclude Include="Editor\Scaffolding\WindowBase.hpp" />
+    <ClInclude Include="Editor\SceneWindow.hpp" />
+    <ClInclude Include="Editor\StyleKeeper.hpp" />
+    <ClInclude Include="Editor\ToolbarRenderer.hpp" />
+    <ClInclude Include="ThirdParty\imgui-docking\examples\imgui_impl_glfw.h" />
+    <ClInclude Include="ThirdParty\imgui-docking\examples\imgui_impl_opengl3.h" />
+    <ClInclude Include="ThirdParty\imgui-docking\imgui.h" />
+    <ClInclude Include="ThirdParty\imgui-docking\misc\cpp\imgui_stdlib.h" />
+    <ClInclude Include="ThirdParty\ImGuizmo-master\ImGuizmo.h" />
+    <ClInclude Include="ThirdParty\ImGuizmo-master\ImSequencer.h" />
+  </ItemGroup>
+</Project>

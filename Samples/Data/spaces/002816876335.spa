@@ -1,0 +1,48 @@
+{
+    "type_name": "space",
+    "variable_name": "UISystemSpace",
+    "members": [
+        {
+            "type_name": "gameObjects",
+            "variable_name": "gameObjects",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "uiSystemGameObject",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 3538830885
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "Unnamed_game_object",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 4108255968
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        },
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 2816876335
+        },
+        {
+            "type_name": "bool",
+            "variable_name": "shouldDeleteOnLoad",
+            "data": false
+        }
+    ],
+    "array": []
+}

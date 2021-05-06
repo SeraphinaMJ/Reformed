@@ -1,0 +1,8 @@
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/ParticleSystem-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/SimpleTexture-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/ParticleBuffer-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/ParticleMesh-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/CPU_Particle-Class.iuml
+    
+    
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/ParticleSystem-Associations.iuml

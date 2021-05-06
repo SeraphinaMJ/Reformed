@@ -1,0 +1,10 @@
+    namespace Graphics::Rendering {
+        GraphicsSystem o-> External::ExternalWindowInterface : m_window_ptr
+        GraphicsSystem o-> External::RenderContextInterface : m_render_context_ptr
+        GraphicsSystem *-> VertexArrayManager : m_vertexArrayManager
+        GraphicsSystem *-> MaterialManager : m_materialManager
+        GraphicsSystem *-> ShaderManager : m_shaderManager
+        GraphicsSystem *-> TextureManager : m_textureManager
+        GraphicsSystem *-> MeshManager : m_meshManager
+        GraphicsSystem *-> FramebufferManager : m_framebufferManager
+    }

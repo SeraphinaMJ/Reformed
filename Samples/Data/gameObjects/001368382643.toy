@@ -1,0 +1,115 @@
+{
+    "type_name": "gameObject",
+    "variable_name": "Node Set Point Two",
+    "members": [
+        {
+            "type_name": "childList",
+            "variable_name": "childList",
+            "members": [],
+            "array": []
+        },
+        {
+            "type_name": "components",
+            "variable_name": "components",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "class transform",
+                    "variable_name": "class transform",
+                    "members": [
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "position",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 4.860533714294434
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 2.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": -104.075927734375
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "quaternion",
+                            "variable_name": "rotation",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "scale",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 1.0
+                                }
+                            ],
+                            "array": []
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "class waypointNode",
+                    "variable_name": "class waypointNode",
+                    "members": [
+                        {
+                            "type_name": "string",
+                            "variable_name": "debugName",
+                            "data": "Waypoint Node Set 2"
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        },
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 1368382643
+        }
+    ],
+    "array": []
+}

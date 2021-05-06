@@ -1,0 +1,11 @@
+    namespace Scripting {
+        class ScriptingSystem {
+            {static} +GetName()
+            +Name()
+            +FindObjectsByComponent<T>()
+            #OnInitialize()
+            #OnUpdate()
+            #OnLevelUnload()
+        }
+        ScriptingSystem --|> SystemManagement::SystemBase
+    }

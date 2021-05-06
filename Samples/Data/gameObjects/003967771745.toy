@@ -1,0 +1,260 @@
+{
+    "type_name": "gameObject",
+    "variable_name": "MediumBuilding",
+    "members": [
+        {
+            "type_name": "childList",
+            "variable_name": "childList",
+            "members": [],
+            "array": []
+        },
+        {
+            "type_name": "components",
+            "variable_name": "components",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "class transform",
+                    "variable_name": "class transform",
+                    "members": [
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "position",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 13.092443466186524
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 10.893997192382813
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "quaternion",
+                            "variable_name": "rotation",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": -0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": -0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": -0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "scale",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.10000000149011612
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.10000000149011612
+                                }
+                            ],
+                            "array": []
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "class renderer",
+                    "variable_name": "class renderer",
+                    "members": [
+                        {
+                            "type_name": "string",
+                            "variable_name": "computeShaderName",
+                            "data": "shader.comp"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "fontName",
+                            "data": "arial.ttf"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "fragmentShaderName",
+                            "data": "shader.frag"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "geometryShaderName",
+                            "data": "shader.geom"
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "hasMaterial",
+                            "data": true
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "materialName",
+                            "data": "solidblue.mtl"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "modelName",
+                            "data": "sampleCube.obj"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "tessellationControlShaderName",
+                            "data": "shader.tcon"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "tessellationEvaluationShaderName",
+                            "data": "shader.tval"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "vertexShaderName",
+                            "data": "shader.vert"
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "class waypointNodeSet",
+                    "variable_name": "class waypointNodeSet",
+                    "members": [
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "Node 1",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 3.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 3.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "Node 2",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 3.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": -3.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "Node 3",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": -3.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": -3.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "Node 4",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": -3.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 3.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "debugName",
+                            "data": "Waypoint Node Set"
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        },
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 3967771745
+        }
+    ],
+    "array": []
+}

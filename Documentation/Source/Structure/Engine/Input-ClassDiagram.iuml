@@ -1,0 +1,11 @@
+    !include ../../Breakdown/Engine/TempestEngine/Input/InputSystem-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Input/GamepadInputAdapter-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/GamepadSystem-Class.iuml
+
+    
+    !include ../../Breakdown/Engine/TempestEngine/Input/InputSystem-Associations.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Input/GamepadInputAdapter-Associations.iuml
+    !include ../../Breakdown/Engine/TempestEngine/GamepadSystem-Associations.iuml
+    
+    
+

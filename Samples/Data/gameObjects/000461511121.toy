@@ -1,0 +1,550 @@
+{
+    "type_name": "gameObject",
+    "variable_name": "light1",
+    "members": [
+        {
+            "type_name": "childList",
+            "variable_name": "childList",
+            "members": [],
+            "array": []
+        },
+        {
+            "type_name": "components",
+            "variable_name": "components",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "class transform",
+                    "variable_name": "class transform",
+                    "members": [
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "position",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": -26.023588180541993
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 70.25518798828125
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": -17.510961532592775
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "quaternion",
+                            "variable_name": "rotation",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": 0.8610132336616516
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": -0.13301989436149598
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": -0.28825274109840395
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.39733144640922549
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "scale",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.9999985694885254
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.9999999403953552
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.9999998211860657
+                                }
+                            ],
+                            "array": []
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "class lightTestScript",
+                    "variable_name": "class lightTestScript",
+                    "members": [],
+                    "array": []
+                },
+                {
+                    "type_name": "class renderer",
+                    "variable_name": "class renderer",
+                    "members": [
+                        {
+                            "type_name": "string",
+                            "variable_name": "computeShaderName",
+                            "data": "shader.comp"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "fontName",
+                            "data": "arial.ttf"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "fragmentShaderName",
+                            "data": "shader.frag"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "geometryShaderName",
+                            "data": "shader.geom"
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "hasMaterial",
+                            "data": false
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "materialName",
+                            "data": ""
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "modelName",
+                            "data": "sampleCube.obj"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "tessellationControlShaderName",
+                            "data": "shader.tcon"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "tessellationEvaluationShaderName",
+                            "data": "shader.tval"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "vertexShaderName",
+                            "data": "shader.vert"
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "class light",
+                    "variable_name": "class light",
+                    "members": [
+                        {
+                            "type_name": "vector4",
+                            "variable_name": "ambientColor",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "castShadow",
+                            "data": false
+                        },
+                        {
+                            "type_name": "vector4",
+                            "variable_name": "diffuseColor",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 1.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "disAtten",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.00139999995008111
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.000007000000096013537
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "vector4",
+                            "variable_name": "globalAmbient",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "ifDecay",
+                            "data": true
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "innerAngle",
+                            "data": 0.2617993950843811
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "intensity",
+                            "data": 1.5
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "isActive",
+                            "data": true
+                        },
+                        {
+                            "type_name": "int",
+                            "variable_name": "lightType",
+                            "data": 1
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "outerAngle",
+                            "data": 0.5235987901687622
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "radius",
+                            "data": 10.0
+                        },
+                        {
+                            "type_name": "vector4",
+                            "variable_name": "specularColor",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "spotFalloff",
+                            "data": 2.0
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "class inputComponent",
+                    "variable_name": "class inputComponent",
+                    "members": [
+                        {
+                            "type_name": "axisToNameMap",
+                            "variable_name": "axisToNameMap",
+                            "members": [],
+                            "array": []
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "context",
+                            "data": ""
+                        },
+                        {
+                            "type_name": "controllerToNameMap",
+                            "variable_name": "controllerToNameMap",
+                            "members": [],
+                            "array": []
+                        },
+                        {
+                            "type_name": "cursorToNameMap",
+                            "variable_name": "cursorToNameMap",
+                            "members": [],
+                            "array": []
+                        },
+                        {
+                            "type_name": "gamepadAxisToNameMap",
+                            "variable_name": "gamepadAxisToNameMap",
+                            "members": [],
+                            "array": []
+                        },
+                        {
+                            "type_name": "gamepadButtonToNameMap",
+                            "variable_name": "gamepadButtonToNameMap",
+                            "members": [],
+                            "array": []
+                        },
+                        {
+                            "type_name": "scancodeToNameMap",
+                            "variable_name": "scancodeToNameMap",
+                            "members": [],
+                            "array": [
+                                {
+                                    "type_name": "scancodeToNameMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "rotateZForward"
+                                        },
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "scancode",
+                                            "data": 73
+                                        }
+                                    ],
+                                    "array": []
+                                },
+                                {
+                                    "type_name": "scancodeToNameMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "rotateZBackward"
+                                        },
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "scancode",
+                                            "data": 75
+                                        }
+                                    ],
+                                    "array": []
+                                },
+                                {
+                                    "type_name": "scancodeToNameMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "spot"
+                                        },
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "scancode",
+                                            "data": 51
+                                        }
+                                    ],
+                                    "array": []
+                                },
+                                {
+                                    "type_name": "scancodeToNameMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "rotateXForward"
+                                        },
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "scancode",
+                                            "data": 74
+                                        }
+                                    ],
+                                    "array": []
+                                },
+                                {
+                                    "type_name": "scancodeToNameMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "point"
+                                        },
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "scancode",
+                                            "data": 50
+                                        }
+                                    ],
+                                    "array": []
+                                },
+                                {
+                                    "type_name": "scancodeToNameMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "rotateXBackward"
+                                        },
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "scancode",
+                                            "data": 76
+                                        }
+                                    ],
+                                    "array": []
+                                },
+                                {
+                                    "type_name": "scancodeToNameMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "directional"
+                                        },
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "scancode",
+                                            "data": 52
+                                        }
+                                    ],
+                                    "array": []
+                                },
+                                {
+                                    "type_name": "scancodeToNameMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "rotateYForward"
+                                        },
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "scancode",
+                                            "data": 85
+                                        }
+                                    ],
+                                    "array": []
+                                },
+                                {
+                                    "type_name": "scancodeToNameMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "rotateYBackward"
+                                        },
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "scancode",
+                                            "data": 79
+                                        }
+                                    ],
+                                    "array": []
+                                }
+                            ]
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        },
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 461511121
+        }
+    ],
+    "array": []
+}

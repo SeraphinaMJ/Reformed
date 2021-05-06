@@ -1,0 +1,192 @@
+{
+    "type_name": "space",
+    "variable_name": "test_space_1",
+    "members": [
+        {
+            "type_name": "gameObjects",
+            "variable_name": "gameObjects",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "Main Camera",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 175958305
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "Default Light",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 568910106
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "minion",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 1986390383
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "enemy",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 893673957
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "player",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 93436062
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "floor",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 2785278932
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "obstacle1",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 445518626
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "obstacle2",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 2249107219
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "obstacle3",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 2665050810
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "obstacle4",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 2630385046
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "obstacle5",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 1220567035
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "obstacle6",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 2966110565
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "player_minion_2",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 2188648040
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "enemy2",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 3584982856
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        },
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 351259087
+        },
+        {
+            "type_name": "bool",
+            "variable_name": "shouldDeleteOnLoad",
+            "data": true
+        }
+    ],
+    "array": []
+}

@@ -1,0 +1,8 @@
+    namespace SceneManagement {
+        class Component {
+            {abstract} +Type()
+            {abstract} +ToTypeRT()
+            {abstract} +UpdateFromTypeRT()
+            +GetGameObject()
+        }
+    }

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{0E87119F-5049-4A45-A0B1-39A441354C5E}</ProjectGuid>
+    <RootNamespace>AuthoringTool</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Configurations\Private\BuildProcess_All_x64_Private.props" />
+    <Import Project="ThirdParty\Configurations\Public\glad-_All_x64_Public.props" />
+    <Import Project="ThirdParty\Configurations\Public\GLFW-3.2.1_All_x64_Public.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Configurations\Private\BuildProcess_All_x64_Private.props" />
+    <Import Project="ThirdParty\Configurations\Public\glad-_All_x64_Public.props" />
+    <Import Project="ThirdParty\Configurations\Public\GLFW-3.2.1_All_x64_Public.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Engine\AudioEngine\Headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/ignore:4099 /ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Engine\AudioEngine\Headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\AudioTool\AudioMetrics.cpp" />
+    <ClCompile Include="Engine\AudioTool\AudioPlayer.cpp" />
+    <ClCompile Include="Engine\AudioTool\AudioSystem.cpp" />
+    <ClCompile Include="Engine\AudioTool\DSPManipulator.cpp" />
+    <ClCompile Include="Engine\AudioTool\ObjectHierarchy.cpp" />
+    <ClCompile Include="Engine\AudioTool\glad.c" />
+    <ClCompile Include="Engine\AudioTool\ImGui\imgui.cpp" />
+    <ClCompile Include="Engine\AudioTool\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="Engine\AudioTool\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="Engine\AudioTool\ImGui\imgui_impl_glfw.cpp" />
+    <ClCompile Include="Engine\AudioTool\ImGui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="Engine\AudioTool\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="Engine\AudioTool\main.cpp" />
+    <ClCompile Include="Engine\AudioTool\ObjectEditor.cpp" />
+    <ClCompile Include="Engine\AudioTool\FilterManipulator.cpp" />
+    <ClCompile Include="Engine\AudioTool\SystemBase.cpp" />
+    <ClCompile Include="Engine\AudioTool\SystemManager.cpp" />
+    <ClCompile Include="Engine\AudioTool\UI_System.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\AudioTool\AudioMetrics.h" />
+    <ClInclude Include="Engine\AudioTool\AudioPlayer.h" />
+    <ClInclude Include="Engine\AudioTool\AudioSystem.h" />
+    <ClInclude Include="Engine\AudioTool\DSPManipulator.h" />
+    <ClInclude Include="Engine\AudioTool\FilterManipulator.h" />
+    <ClInclude Include="Engine\AudioTool\ObjectHierarchy.h" />
+    <ClInclude Include="Engine\AudioTool\ImGui\imconfig.h" />
+    <ClInclude Include="Engine\AudioTool\ImGui\imgui.h" />
+    <ClInclude Include="Engine\AudioTool\ImGui\imgui_impl_glfw.h" />
+    <ClInclude Include="Engine\AudioTool\ImGui\imgui_impl_opengl3.h" />
+    <ClInclude Include="Engine\AudioTool\ImGui\imgui_internal.h" />
+    <ClInclude Include="Engine\AudioTool\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="Engine\AudioTool\ImGui\imstb_textedit.h" />
+    <ClInclude Include="Engine\AudioTool\ImGui\imstb_truetype.h" />
+    <ClInclude Include="Engine\AudioTool\ObjectEditor.h" />
+    <ClInclude Include="Engine\AudioTool\ProcessingDisplay.h" />
+    <ClInclude Include="Engine\AudioTool\UIEventTypes.h" />
+    <ClInclude Include="Engine\AudioTool\SystemBase.h" />
+    <ClInclude Include="Engine\AudioTool\SystemManager.h" />
+    <ClInclude Include="Engine\AudioTool\UI_System.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Engine\AudioTool\ImGui\LICENSE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="AudioEngine.vcxproj">
+      <Project>{a396c479-b6d9-4f55-873e-7ee49aa3c7e0}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

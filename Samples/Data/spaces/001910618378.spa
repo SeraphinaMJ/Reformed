@@ -1,0 +1,48 @@
+{
+    "type_name": "space",
+    "variable_name": "Unnamed_space_2",
+    "members": [
+        {
+            "type_name": "gameObjects",
+            "variable_name": "gameObjects",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "Main Camera",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 203832412
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "SplashScreen",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 2994302027
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        },
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 1910618378
+        },
+        {
+            "type_name": "bool",
+            "variable_name": "shouldDeleteOnLoad",
+            "data": true
+        }
+    ],
+    "array": []
+}

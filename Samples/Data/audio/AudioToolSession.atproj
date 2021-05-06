@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Node>
+  <Name>SFX_BombCountdown.node</Name>
+  <AudioData>
+    <Name>Bomb_Countdown.wav</Name>
+  </AudioData>
+  <Name>UI_NegativeFeedback.node</Name>
+  <AudioData>
+    <Name>Negative_Feedback.wav</Name>
+  </AudioData>
+  <Name>SFX_Groundpound.node</Name>
+  <AudioData>
+    <Name>GroundPound.wav</Name>
+  </AudioData>
+  <Name>SFX_Pickup.node</Name>
+  <AudioData>
+    <Name>PickUp.wav</Name>
+  </AudioData>
+  <Name>Music_Mariachi.node</Name>
+  <AudioData>
+    <Name>MariachiGuitar.wav</Name>
+  </AudioData>
+  <Name>SFX_Jump.node</Name>
+  <AudioData>
+    <Name>Jump.wav</Name>
+  </AudioData>
+  <Name>SFX_Spin.node</Name>
+  <AudioData>
+    <Name>Lariat_Spin.wav</Name>
+  </AudioData>
+  <Name>UI_PositiveFeedback.node</Name>
+  <AudioData>
+    <Name>Positive_Feedback.wav</Name>
+  </AudioData>
+  <Name>SFX_Roll.node</Name>
+  <AudioData>
+    <Name>Roll_Dash.wav</Name>
+    <Name>Shuffle_Dash.wav</Name>
+  </AudioData>
+  <Name>SFX_Shuffle.node</Name>
+  <AudioData>
+    <Name>Shuffle_Dash.wav</Name>
+  </AudioData>
+</Node>
+<AudioData>
+  <Name>Bomb_Countdown.wav</Name>
+  <Name>Negative_Feedback.wav</Name>
+  <Name>Positive_Feedback.wav</Name>
+  <Name>GroundPound.wav</Name>
+  <Name>PickUp.wav</Name>
+  <Name>Jump.wav</Name>
+  <Name>Lariat_Spin.wav</Name>
+  <Name>MariachiGuitar.wav</Name>
+  <Name>Roll_Dash.wav</Name>
+  <Name>Shuffle_Dash.wav</Name>
+</AudioData>

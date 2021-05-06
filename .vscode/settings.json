@@ -1,0 +1,17 @@
+{
+    "restructuredtext.confPath": "${workspaceFolder}\\Documentation\\Source",
+    "files.associations": {
+        "memory": "cpp",
+        "array": "cpp",
+        "chrono": "cpp",
+        "functional": "cpp",
+        "future": "cpp",
+        "ratio": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "xmemory": "cpp",
+        "xtr1common": "cpp",
+        "xutility": "cpp"
+    }
+}

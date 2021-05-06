@@ -1,0 +1,3 @@
+    !include ../../Breakdown/EngineInterfaces/ExternalWindowInterface-Class.iuml
+    !include ../../Breakdown/EngineInterfaces/RenderContextInterface-Class.iuml
+    !include ../../Breakdown/EngineInterfaces/InputSourceInterface-Class.iuml

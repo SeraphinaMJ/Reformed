@@ -1,0 +1,4 @@
+    namespace SceneManagement {
+        Space o-down-> "*" GameObject : objects
+        Space o-> Scene : containing_scene
+    }

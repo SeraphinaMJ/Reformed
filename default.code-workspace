@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Project",
+			"path": "Project\\ProjectBoomerang"
+		},
+		{
+			"name": "Root",
+			"path": "..\\"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,13 @@
+    namespace Serialization {
+        class PersistenceSystem {
+            {static} +GetName()
+            +Name()
+            +OnHandleMessage()
+            +OnUpdate()
+            +ObjectToStream()
+            +GetDataLocation()
+            +WriteToFile()
+            +ReadFromFile()
+        }
+        PersistenceSystem --|> SystemManagement::SystemBase
+    }

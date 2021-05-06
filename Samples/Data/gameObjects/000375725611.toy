@@ -1,0 +1,500 @@
+{
+    "type_name": "gameObject",
+    "variable_name": "particles_bottom_right",
+    "members": [
+        {
+            "type_name": "childList",
+            "variable_name": "childList",
+            "members": [],
+            "array": []
+        },
+        {
+            "type_name": "components",
+            "variable_name": "components",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "class transform",
+                    "variable_name": "class transform",
+                    "members": [
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "position",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 60.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": -78.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "quaternion",
+                            "variable_name": "rotation",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": -0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": -0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": -0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "scale",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 3.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 3.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 1.0
+                                }
+                            ],
+                            "array": []
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "class rigidBody",
+                    "variable_name": "class rigidBody",
+                    "members": [
+                        {
+                            "type_name": "unsigned int",
+                            "variable_name": "collisionLayerSelf",
+                            "data": 16
+                        },
+                        {
+                            "type_name": "unsigned int",
+                            "variable_name": "collisionLayerWith",
+                            "data": 16
+                        },
+                        {
+                            "type_name": "int",
+                            "variable_name": "collisionShape",
+                            "data": 1
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "damping",
+                            "data": 0.0
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "friction",
+                            "data": 0.0
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "handle",
+                            "data": true
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "localGravity",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "localInertia",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "mass",
+                            "data": 0.0
+                        },
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "parent",
+                            "data": 0
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "restitution",
+                            "data": 0.0
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "useGlobalGravity",
+                            "data": true
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "class particleEmitter",
+                    "variable_name": "class particleEmitter",
+                    "members": [
+                        {
+                            "type_name": "accelrationMinMax",
+                            "variable_name": "accelrationMinMax",
+                            "members": [],
+                            "array": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "accelerationMin",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "accelerationMax",
+                                    "data": 3.0
+                                }
+                            ]
+                        },
+                        {
+                            "type_name": "int",
+                            "variable_name": "angle",
+                            "data": 50
+                        },
+                        {
+                            "type_name": "int",
+                            "variable_name": "arc",
+                            "data": 180
+                        },
+                        {
+                            "type_name": "int",
+                            "variable_name": "batchCount",
+                            "data": 0
+                        },
+                        {
+                            "type_name": "int",
+                            "variable_name": "batchSize",
+                            "data": 100
+                        },
+                        {
+                            "type_name": "vector4",
+                            "variable_name": "direction",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "int",
+                            "variable_name": "emitterShape",
+                            "data": 2
+                        },
+                        {
+                            "type_name": "int",
+                            "variable_name": "emitterType",
+                            "data": 0
+                        },
+                        {
+                            "type_name": "colorRange",
+                            "variable_name": "endColorRange",
+                            "members": [],
+                            "array": [
+                                {
+                                    "type_name": "color4",
+                                    "variable_name": "color4",
+                                    "members": [
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "a",
+                                            "data": 1.0
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "b",
+                                            "data": 0.9686410427093506
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "g",
+                                            "data": 1.0
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "r",
+                                            "data": 0.0
+                                        }
+                                    ],
+                                    "array": []
+                                },
+                                {
+                                    "type_name": "color4",
+                                    "variable_name": "color4",
+                                    "members": [
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "a",
+                                            "data": 1.0
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "b",
+                                            "data": 0.8850173950195313
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "g",
+                                            "data": 1.0
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "r",
+                                            "data": 0.0
+                                        }
+                                    ],
+                                    "array": []
+                                }
+                            ]
+                        },
+                        {
+                            "type_name": "forceMinMax",
+                            "variable_name": "forceMinMax",
+                            "members": [],
+                            "array": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "forceMin",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "forceMax",
+                                    "data": 3.0
+                                }
+                            ]
+                        },
+                        {
+                            "type_name": "glowMinMax",
+                            "variable_name": "glowMinMax",
+                            "members": [],
+                            "array": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "glowMin",
+                                    "data": 0.10000000149011612
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "glowMax",
+                                    "data": 0.30000001192092898
+                                }
+                            ]
+                        },
+                        {
+                            "type_name": "int",
+                            "variable_name": "interval",
+                            "data": 6
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "isTorusRan",
+                            "data": true
+                        },
+                        {
+                            "type_name": "lifeMinMax",
+                            "variable_name": "lifeMinMax",
+                            "members": [],
+                            "array": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "lifeMin",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "lifeMax",
+                                    "data": 3.0
+                                }
+                            ]
+                        },
+                        {
+                            "type_name": "int",
+                            "variable_name": "maxParticles",
+                            "data": 1000
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "on",
+                            "data": true
+                        },
+                        {
+                            "type_name": "int",
+                            "variable_name": "radious",
+                            "data": 4
+                        },
+                        {
+                            "type_name": "sizeMinMax",
+                            "variable_name": "sizeMinMax",
+                            "members": [],
+                            "array": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "sizeMin",
+                                    "data": 0.5
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "sizeMax",
+                                    "data": 5.0
+                                }
+                            ]
+                        },
+                        {
+                            "type_name": "colorRange",
+                            "variable_name": "startColorRange",
+                            "members": [],
+                            "array": [
+                                {
+                                    "type_name": "color4",
+                                    "variable_name": "color4",
+                                    "members": [
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "a",
+                                            "data": 1.0
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "b",
+                                            "data": 0.0
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "g",
+                                            "data": 1.0
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "r",
+                                            "data": 0.11846685409545899
+                                        }
+                                    ],
+                                    "array": []
+                                },
+                                {
+                                    "type_name": "color4",
+                                    "variable_name": "color4",
+                                    "members": [
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "a",
+                                            "data": 1.0
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "b",
+                                            "data": 0.0696861743927002
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "g",
+                                            "data": 1.0
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "r",
+                                            "data": 0.0
+                                        }
+                                    ],
+                                    "array": []
+                                }
+                            ]
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        },
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 375725611
+        }
+    ],
+    "array": []
+}

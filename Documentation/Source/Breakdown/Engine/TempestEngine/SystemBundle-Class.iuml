@@ -1,0 +1,8 @@
+    namespace SystemManagement {
+        class SystemBundle {
+            +Name()
+            +Task()
+            +SystemMap()
+            +SysVec()
+        }
+    }

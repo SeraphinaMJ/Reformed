@@ -1,0 +1,48 @@
+{
+    "type_name": "space",
+    "variable_name": "Unnamed_space_2",
+    "members": [
+        {
+            "type_name": "gameObjects",
+            "variable_name": "gameObjects",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "Player",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 3611300113
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "gameObject",
+                    "variable_name": "Light1",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 2780165220
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        },
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 232148318
+        },
+        {
+            "type_name": "bool",
+            "variable_name": "shouldDeleteOnLoad",
+            "data": true
+        }
+    ],
+    "array": []
+}

@@ -1,0 +1,22 @@
+    namespace SystemManagement {
+        interface SystemManagerInterface {
+            +GetGameObjectGatherer()
+            +GetSystem()
+            +SetGameObjectGatherer()
+            +GetConfigurationFunction()
+            +IsSystemActive()
+            +AddSystemBundles()
+            +InitializeSystemBundles()
+            +ActivateSystemBundles()
+            +EnableBundle()
+            +SuspendBundle()
+            +DisableBundle()
+            +GetAllBundleNames()
+            +GetActiveBundleNames()
+            +GetSystemNamesInBundle()
+            +SetTask()
+            +Initialize()
+            +Update()
+            +Shutdown()
+        }
+    }

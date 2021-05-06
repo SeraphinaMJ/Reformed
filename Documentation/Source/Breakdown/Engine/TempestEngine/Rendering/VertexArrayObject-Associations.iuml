@@ -1,0 +1,4 @@
+    namespace Graphics::Rendering {
+        VertexArrayObject *-> IndexBufferObject : m_ibo
+        VertexArrayObject *-> VertexBufferObject : m_vbo
+    }

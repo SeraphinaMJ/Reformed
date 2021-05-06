@@ -1,0 +1,342 @@
+{
+    "type_name": "gameObject",
+    "variable_name": "ShadowCastingDuckOfDoom",
+    "members": [
+        {
+            "type_name": "childList",
+            "variable_name": "childList",
+            "members": [],
+            "array": []
+        },
+        {
+            "type_name": "components",
+            "variable_name": "components",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "class transform",
+                    "variable_name": "class transform",
+                    "members": [
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "position",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": -13.129289627075196
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 18.623369216918947
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 7.703420162200928
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "quaternion",
+                            "variable_name": "rotation",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": -0.27744176983833315
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": -0.38923439383506777
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": -0.8328270316123962
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.27914461493492129
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "scale",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.6323932409286499
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.6321051120758057
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.6127402186393738
+                                }
+                            ],
+                            "array": []
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "class light",
+                    "variable_name": "class light",
+                    "members": [
+                        {
+                            "type_name": "vector4",
+                            "variable_name": "ambientColor",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "castShadow",
+                            "data": true
+                        },
+                        {
+                            "type_name": "vector4",
+                            "variable_name": "diffuseColor",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.5
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.5
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.20000000298023225
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "disAtten",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.00139999995008111
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.000007000000096013537
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "vector4",
+                            "variable_name": "globalAmbient",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "ifDecay",
+                            "data": true
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "innerAngle",
+                            "data": 0.2617993950843811
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "intensity",
+                            "data": 1.0
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "isActive",
+                            "data": true
+                        },
+                        {
+                            "type_name": "int",
+                            "variable_name": "lightType",
+                            "data": 0
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "outerAngle",
+                            "data": 0.5235987901687622
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "radius",
+                            "data": 10.0
+                        },
+                        {
+                            "type_name": "vector4",
+                            "variable_name": "specularColor",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 1.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "spotFalloff",
+                            "data": 2.0
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "class renderer",
+                    "variable_name": "class renderer",
+                    "members": [
+                        {
+                            "type_name": "string",
+                            "variable_name": "computeShaderName",
+                            "data": "shader.comp"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "fontName",
+                            "data": "arial.ttf"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "fragmentShaderName",
+                            "data": "shader.frag"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "geometryShaderName",
+                            "data": "shader.geom"
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "hasMaterial",
+                            "data": true
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "materialName",
+                            "data": "basic.mtl"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "modelName",
+                            "data": "duck.obj"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "tessellationControlShaderName",
+                            "data": "shader.tcon"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "tessellationEvaluationShaderName",
+                            "data": "shader.tval"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "vertexShaderName",
+                            "data": "shader.vert"
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        },
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 4159233823
+        }
+    ],
+    "array": []
+}

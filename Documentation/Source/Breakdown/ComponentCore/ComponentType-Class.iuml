@@ -1,0 +1,12 @@
+    namespace SceneManagement {
+        class ComponentType {
+            {static} +ForConcrete()
+            {static} +ForAbstract()
+            {static} +ForInherited()
+            +Name()
+            +operator==()
+            +operator<=()
+            +HasParent()
+            +GetParentType()
+        }
+    }

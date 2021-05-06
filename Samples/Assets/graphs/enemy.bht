@@ -1,0 +1,149 @@
+{
+    "graph": [
+        {
+            "type name": "NODE",
+            "class name": "Selector",
+            "name": "Selector",
+            "id": 0,
+            "position": [
+                55.0,
+                25.0
+            ],
+            "node output links": [
+                [
+                    1,
+                    0,
+                    0,
+                    1
+                ]
+            ],
+            "node input links": []
+        },
+        {
+            "type name": "NODE",
+            "class name": "IsSquadEngaged",
+            "name": "IsSquadEngaged",
+            "id": 1,
+            "position": [
+                242.0,
+                128.0
+            ],
+            "node output links": [
+                [
+                    2,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "node input links": [
+                [
+                    1,
+                    0,
+                    0,
+                    1
+                ]
+            ]
+        },
+        {
+            "type name": "NODE",
+            "class name": "Sequencer",
+            "name": "Sequencer",
+            "id": 2,
+            "position": [
+                239.0,
+                185.0
+            ],
+            "node output links": [
+                [
+                    5,
+                    0,
+                    2,
+                    0
+                ],
+                [
+                    6,
+                    0,
+                    2,
+                    1
+                ],
+                [
+                    3,
+                    0,
+                    2,
+                    2
+                ]
+            ],
+            "node input links": [
+                [
+                    2,
+                    0,
+                    1,
+                    0
+                ]
+            ]
+        },
+        {
+            "type name": "NODE",
+            "class name": "AttackClosestEnemy",
+            "name": "AttackClosestEnemy",
+            "id": 3,
+            "position": [
+                479.0,
+                241.0
+            ],
+            "node output links": [],
+            "node input links": [
+                [
+                    3,
+                    0,
+                    2,
+                    2
+                ]
+            ],
+            "Attack Damage": 20.0,
+            "Time Between Attacks": 2.0,
+            "Attack Range": 10.0
+        },
+        {
+            "type name": "NODE",
+            "class name": "PickEnemyToFight",
+            "name": "PickEnemyToFight",
+            "id": 5,
+            "position": [
+                20.0,
+                295.0
+            ],
+            "node output links": [],
+            "node input links": [
+                [
+                    5,
+                    0,
+                    2,
+                    0
+                ]
+            ]
+        },
+        {
+            "type name": "NODE",
+            "class name": "GoToEnemy",
+            "name": "GoToEnemy",
+            "id": 6,
+            "position": [
+                255.0,
+                379.0
+            ],
+            "node output links": [],
+            "node input links": [
+                [
+                    6,
+                    0,
+                    2,
+                    1
+                ]
+            ],
+            "Minimum Distance To Enemy": 5.0,
+            "Max Speed": 10.0
+        }
+    ]
+}

@@ -1,0 +1,204 @@
+{
+    "type_name": "gameObject",
+    "variable_name": "BackInvisWall",
+    "members": [
+        {
+            "type_name": "childList",
+            "variable_name": "childList",
+            "members": [],
+            "array": []
+        },
+        {
+            "type_name": "components",
+            "variable_name": "components",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "class transform",
+                    "variable_name": "class transform",
+                    "members": [
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "position",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": -0.9612090587615967
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": -51.699581146240237
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "quaternion",
+                            "variable_name": "rotation",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": -0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": -0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": -0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "scale",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 67.44339752197266
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 100.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 7.3037333488464359
+                                }
+                            ],
+                            "array": []
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "class rigidBody",
+                    "variable_name": "class rigidBody",
+                    "members": [
+                        {
+                            "type_name": "unsigned int",
+                            "variable_name": "collisionLayerSelf",
+                            "data": 2
+                        },
+                        {
+                            "type_name": "unsigned int",
+                            "variable_name": "collisionLayerWith",
+                            "data": 4
+                        },
+                        {
+                            "type_name": "int",
+                            "variable_name": "collisionShape",
+                            "data": 1
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "damping",
+                            "data": 0.0
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "friction",
+                            "data": 0.0
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "handle",
+                            "data": false
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "localGravity",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "localInertia",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "mass",
+                            "data": 0.0
+                        },
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "parent",
+                            "data": 0
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "restitution",
+                            "data": 0.0
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "useGlobalGravity",
+                            "data": true
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        },
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 961099947
+        }
+    ],
+    "array": []
+}

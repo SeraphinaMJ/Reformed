@@ -1,0 +1,7 @@
+    namespace Animation {
+        class DelayAction {
+            +OnUpdate()
+            +OnComplete()
+        }
+        DelayAction --|> Animation::Action
+    }

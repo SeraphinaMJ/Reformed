@@ -1,0 +1,16 @@
+    namespace Graphics::UI {
+        class UISystem {
+            {static} +GetName()
+            +Name()
+            +OnInitialize()
+            +OnUpdate()
+            +OnShutdown()
+            +OnLevelLoad()
+            +OnLevelUnload()
+            +AddButton()
+            +SetWrapping()
+            +SetCurrentSelectedButton()
+            +UpdateListOfButtons()
+        }
+        UISystem --|> SystemManagement::SystemBase
+    }

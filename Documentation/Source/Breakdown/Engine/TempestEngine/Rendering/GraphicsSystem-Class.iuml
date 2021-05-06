@@ -1,0 +1,18 @@
+    namespace Graphics::Rendering {
+        class GraphicsSystem {
+            {static} +GetName()
+            +Name()
+            +OnInitialize()
+            +OnStartFrame()
+            +OnUpdate()
+            +OnEndFrame()
+            +OnShutdown()
+            +GetMeshManager()
+            +GetShaderManager()
+            +GetVertexArrayManager()
+            +GetMaterialManager()
+            +GetTextureManager()
+            +GetFramebufferManager()
+        }
+        GraphicsSystem --|> SystemManagement::SystemBase
+    }

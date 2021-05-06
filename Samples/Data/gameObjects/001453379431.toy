@@ -1,0 +1,266 @@
+{
+    "type_name": "gameObject",
+    "variable_name": "Second Camera",
+    "members": [
+        {
+            "type_name": "childList",
+            "variable_name": "childList",
+            "members": [],
+            "array": []
+        },
+        {
+            "type_name": "components",
+            "variable_name": "components",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "class cameraScript",
+                    "variable_name": "class cameraScript",
+                    "members": [],
+                    "array": []
+                },
+                {
+                    "type_name": "class transform",
+                    "variable_name": "class transform",
+                    "members": [
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "position",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 3.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 20.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "quaternion",
+                            "variable_name": "rotation",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "scale",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 1.0
+                                }
+                            ],
+                            "array": []
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "class inputComponent",
+                    "variable_name": "class inputComponent",
+                    "members": [
+                        {
+                            "type_name": "axisToNameMap",
+                            "variable_name": "axisToNameMap",
+                            "members": [],
+                            "array": []
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "context",
+                            "data": ""
+                        },
+                        {
+                            "type_name": "controllerToNameMap",
+                            "variable_name": "controllerToNameMap",
+                            "members": [],
+                            "array": []
+                        },
+                        {
+                            "type_name": "cursorToNameMap",
+                            "variable_name": "cursorToNameMap",
+                            "members": [],
+                            "array": []
+                        },
+                        {
+                            "type_name": "gamepadAxisToNameMap",
+                            "variable_name": "gamepadAxisToNameMap",
+                            "members": [],
+                            "array": []
+                        },
+                        {
+                            "type_name": "gamepadButtonToNameMap",
+                            "variable_name": "gamepadButtonToNameMap",
+                            "members": [],
+                            "array": []
+                        },
+                        {
+                            "type_name": "scancodeToNameMap",
+                            "variable_name": "scancodeToNameMap",
+                            "members": [],
+                            "array": [
+                                {
+                                    "type_name": "scancodeToNameMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "capture"
+                                        },
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "scancode",
+                                            "data": 86
+                                        }
+                                    ],
+                                    "array": []
+                                }
+                            ]
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "class camera",
+                    "variable_name": "class camera",
+                    "members": [
+                        {
+                            "type_name": "bool",
+                            "variable_name": "active",
+                            "data": true
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "farPlaneDist",
+                            "data": 300.0
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "fieldOfView",
+                            "data": 0.7853981852531433
+                        },
+                        {
+                            "type_name": "vector4",
+                            "variable_name": "fogColor",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.5
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.5
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.5
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "height",
+                            "data": 90.0
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "isMainCamera",
+                            "data": false
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "nearPlaneDist",
+                            "data": 0.10000000149011612
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "viewVec",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": -1.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "width",
+                            "data": 160.0
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        },
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 1453379431
+        }
+    ],
+    "array": []
+}

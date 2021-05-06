@@ -1,0 +1,5 @@
+    namespace GameObjectFiltering {
+        GameObjectFilter o-> Core::Engine : m_engine
+        GameObjectFilter o-> GameObjectFiltering::ListBuilder : builder
+        GameObjectFilter --> GameObjectFiltering::ComponentTypeSet
+    }

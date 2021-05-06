@@ -1,0 +1,5 @@
+    !include ../../Breakdown/Engine/TempestEngine/Scripting/ScriptingSystem-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Components/ScriptCPP-Class.iuml
+
+    !include ../../Breakdown/Engine/TempestEngine/Components/ScriptCPP-Associations.iuml
+

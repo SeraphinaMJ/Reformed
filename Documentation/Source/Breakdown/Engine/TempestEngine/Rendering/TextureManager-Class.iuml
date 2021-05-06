@@ -1,0 +1,9 @@
+    namespace Graphics::Rendering {
+        class TextureManager {
+            +GetSimpleTexture()
+            +GetCubeTexture()
+            +UnbindAll()
+            +CreateSimpleTexture()
+            +CreateCubeTexture()
+        }
+    }

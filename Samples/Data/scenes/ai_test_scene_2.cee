@@ -1,0 +1,43 @@
+{
+    "type_name": "scene",
+    "variable_name": "ai_test_scene_2",
+    "members": [
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 2018133580
+        },
+        {
+            "type_name": "spaces",
+            "variable_name": "spaces",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "space",
+                    "variable_name": "battle_ground",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 739248931
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "space",
+                    "variable_name": "WaypointGraph",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 3527130834
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        }
+    ],
+    "array": []
+}

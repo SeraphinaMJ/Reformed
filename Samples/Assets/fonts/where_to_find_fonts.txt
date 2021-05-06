@@ -1,0 +1,1 @@
+press window key + e on your keyboard and in the address bar type shell:fonts

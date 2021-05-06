@@ -1,0 +1,11 @@
+    namespace Graphics::Camera {
+        class CameraSystem {
+            +GetMainCamera()
+            {static} +GetName()
+            +Name()
+            +EnableEditorCamera()
+            +DisableEditorCamera()
+            #OnInitialize()
+        }
+        CameraSystem --|> SystemManagement::SystemBase
+    }

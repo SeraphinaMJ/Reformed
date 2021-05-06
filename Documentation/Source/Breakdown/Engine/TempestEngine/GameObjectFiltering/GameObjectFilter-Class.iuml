@@ -1,0 +1,8 @@
+    namespace GameObjectFiltering {
+        class GameObjectFilter {
+            +MoveGameObject()
+            +SetBuilder()
+        }
+        GameObjectFilter -up-|> GameObjectCollector
+        GameObjectFilter -up-|> GameObjectGatherer
+    }

@@ -1,0 +1,4 @@
+    namespace Scripting {
+        ScriptCPP o-> ScriptingSystem : m_system
+        ScriptCPP o-> SystemManagement::SystemManagerInterface : m_system_manager
+    }

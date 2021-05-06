@@ -1,0 +1,5 @@
+    namespace SystemManagement {
+        class SystemManager {
+        }
+        SystemManager -up-|> SystemManagerInterface
+    }

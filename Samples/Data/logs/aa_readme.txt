@@ -1,0 +1,1 @@
+This folder contains all local data logs in .csv format.

@@ -1,0 +1,6 @@
+    namespace Animation {
+        class LerpAction { 
+            #OnUpdate()
+        }
+        LerpAction --|> Animation::Action
+    }

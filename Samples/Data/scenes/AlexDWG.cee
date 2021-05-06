@@ -1,0 +1,43 @@
+{
+    "type_name": "scene",
+    "variable_name": "AlexDWG",
+    "members": [
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 2225391735
+        },
+        {
+            "type_name": "spaces",
+            "variable_name": "spaces",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "space",
+                    "variable_name": "LevelStuff",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 1192181895
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "space",
+                    "variable_name": "WaypointGraph",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 220300117
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        }
+    ],
+    "array": []
+}

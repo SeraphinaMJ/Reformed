@@ -1,0 +1,7 @@
+    namespace External {
+        interface ExternalWindowInterface {
+            +HandleProcessEvents()
+            +HandleResizeRequest()
+            +HandleQuitRequest()
+        }
+    }

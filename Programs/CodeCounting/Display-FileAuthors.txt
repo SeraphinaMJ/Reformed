@@ -1,0 +1,1 @@
+get-childitem *.c |% {echo %_.name; Get-content $_.fullname | select-string -pattern "\\author"; echo ""}

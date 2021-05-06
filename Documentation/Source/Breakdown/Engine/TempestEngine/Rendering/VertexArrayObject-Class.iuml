@@ -1,0 +1,11 @@
+    namespace Graphics::Rendering {
+        class VertexArrayObject {
+            +operator=()
+            +GetIndexBufferObject()
+            +GetVertexBufferObject()
+            +Build()
+            +Bind()
+            +Render()
+            +Unbind()
+        }
+    }

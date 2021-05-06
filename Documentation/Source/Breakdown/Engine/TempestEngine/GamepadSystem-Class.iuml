@@ -1,0 +1,12 @@
+    namespace InputSystem {
+        class GamepadSystem {
+            {static} +GetName()
+            +Name()
+            +GetInputAdapter()
+            +SetFFB()
+            #OnInitialize()
+            #OnStartFrame()
+            #OnShutdown()
+        }
+        GamepadSystem --|> SystemManagement::SystemBase
+    }

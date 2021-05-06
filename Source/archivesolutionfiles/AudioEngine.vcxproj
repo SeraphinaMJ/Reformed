@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{A396C479-B6D9-4F55-873E-7EE49AA3C7E0}</ProjectGuid>
+    <RootNamespace>AudioEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Configurations\Private\BuildProcess_All_x64_Private.props" />
+    <Import Project="ThirdParty\Configurations\Public\PortAudio-_All_x64_Public.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="Configurations\Private\BuildProcess_All_x64_Private.props" />
+    <Import Project="ThirdParty\Configurations\Public\PortAudio-_All_x64_Public.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Engine\AudioEngine\Headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Lib>
+      <AdditionalOptions>/ignore:4099 /ignore:4221</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)Engine\AudioEngine\Headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\AudioEngine\AE_AudioMath.cpp" />
+    <ClCompile Include="Engine\AudioEngine\AudioStorage.cpp" />
+    <ClCompile Include="Engine\AudioEngine\AE_RingBuffer.cpp" />
+    <ClCompile Include="Engine\AudioEngine\AudioAssetManager.cpp" />
+    <ClCompile Include="Engine\AudioEngine\AudioEngine.cpp" />
+    <ClCompile Include="Engine\AudioEngine\AudioEngineCallbacks.cpp" />
+    <ClCompile Include="Engine\AudioEngine\Compressor.cpp" />
+    <ClCompile Include="Engine\AudioEngine\DoubleBuffer.cpp" />
+    <ClCompile Include="Engine\AudioEngine\DSPFactory.cpp" />
+    <ClCompile Include="Engine\AudioEngine\Envelopes.cpp" />
+    <ClCompile Include="Engine\AudioEngine\EventHandler.cpp" />
+    <ClCompile Include="Engine\AudioEngine\Filter.cpp" />
+    <ClCompile Include="Engine\AudioEngine\FilterFactory.cpp" />
+    <ClCompile Include="Engine\AudioEngine\IOTarget.cpp" />
+    <ClCompile Include="Engine\AudioEngine\Parameters.cpp" />
+    <ClCompile Include="Engine\AudioEngine\ProcessingSettings.cpp" />
+    <ClCompile Include="Engine\AudioEngine\Serializer.cpp" />
+    <ClCompile Include="Engine\AudioEngine\Voice.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\AudioEngine\Headers\AE_AudioMath.hpp" />
+    <ClInclude Include="Engine\AudioEngine\Headers\AE_RingBuffer.hpp" />
+    <ClInclude Include="Engine\AudioEngine\Headers\AE_Events.hpp" />
+    <ClInclude Include="Engine\AudioEngine\Headers\AudioStorage.hpp" />
+    <ClInclude Include="Engine\AudioEngine\Headers\AudioAssetManager.h" />
+    <ClInclude Include="Engine\AudioEngine\Headers\AudioEngine.hpp" />
+    <ClInclude Include="Engine\AudioEngine\Headers\BusInterface.h" />
+    <ClInclude Include="Engine\AudioEngine\Headers\Compressor.h" />
+    <ClInclude Include="Engine\AudioEngine\Headers\DisplayPrimer.h" />
+    <ClInclude Include="Engine\AudioEngine\Headers\DoubleBuffer.h" />
+    <ClInclude Include="Engine\AudioEngine\Headers\DSPBase.h" />
+    <ClInclude Include="Engine\AudioEngine\Headers\DSPFactory.h" />
+    <ClInclude Include="Engine\AudioEngine\Headers\Envelopes.h" />
+    <ClInclude Include="Engine\AudioEngine\Headers\EventHandler.hpp" />
+    <ClInclude Include="Engine\AudioEngine\Headers\FileDefinitions.h" />
+    <ClInclude Include="Engine\AudioEngine\Headers\Filter.h" />
+    <ClInclude Include="Engine\AudioEngine\Headers\FilterFactory.h" />
+    <ClInclude Include="Engine\AudioEngine\Headers\IOTarget.h" />
+    <ClInclude Include="Engine\AudioEngine\Headers\MixerObjects.h" />
+    <ClInclude Include="Engine\AudioEngine\Headers\Parameters.h" />
+    <ClInclude Include="Engine\AudioEngine\Headers\ProcessingSettings.h" />
+    <ClInclude Include="Engine\AudioEngine\Headers\Serializer.h" />
+    <ClInclude Include="Engine\AudioEngine\Headers\Voice.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,9 @@
+    namespace Graphics::Particles {
+        class ParticleSystem {
+            {static} +GetName()
+            +Name()
+            +OnInitialize()
+            +OnUpdate()
+        }
+        ParticleSystem --|> SystemManagement::SystemBase
+    }

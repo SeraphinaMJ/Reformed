@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*!***************************************************************************************
+\file       debuggerFormatting.natvis
+\author     Aaron Damyen
+\date       7/31/18
+\copyright  All content © 2018-2019 DigiPen (USA) Corporation, all rights reserved.
+\par        Project: Boomerang
+\brief  
+*****************************************************************************************/
+-->
+
+  <AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+  <Type Name="GameObjectFiltering::componentTypeSet">
+    <DisplayString>{bits[0],b}</DisplayString>
+  </Type>
+</AutoVisualizer>

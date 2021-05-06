@@ -1,0 +1,21 @@
+    namespace SceneManagement {
+        class Scene {
+            +Read()
+            +Write()
+            +ToTypeRT()
+            +SetGameObjectCollector()
+            +GetGameObjectCollector()
+            +GetID()
+            +SetName()
+            +GetName()
+            +CreateSpace()
+            +MoveSpace()
+            +DestroySpace()
+            +GetSpaces()
+            +GetSpace()
+            +GetSpaceByIndex()
+            +FindGameObject()
+            +FindGameObjectByID()
+            +DestroyGameObject()
+        }
+    }

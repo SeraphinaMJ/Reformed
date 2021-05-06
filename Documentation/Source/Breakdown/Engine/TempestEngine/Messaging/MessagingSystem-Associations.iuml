@@ -1,0 +1,4 @@
+    namespace Communications {
+        MessagingSystem *-> MessageQueue : m_message_queue
+    }
+    

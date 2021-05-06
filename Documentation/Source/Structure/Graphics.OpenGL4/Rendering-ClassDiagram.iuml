@@ -1,0 +1,28 @@
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/GraphicsSystem-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/VertexArrayManager-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/MaterialManager-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/ShaderManager-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/TextureManager-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/MeshManager-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/FramebufferManager-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/VertexArrayObject-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/IndexBufferObject-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/VertexBufferObject-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/Material-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/ShaderProgram-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/Texture-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/TriangleMesh-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/Framebuffer-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/RenderPool-Class.iuml
+
+
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/GraphicsSystem-Associations.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/VertexArrayManager-Associations.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/VertexArrayObject-Associations.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/MaterialManager-Associations.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/ShaderManager-Associations.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/TextureManager-Associations.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/MeshManager-Associations.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/FramebufferManager-Associations.iuml
+
+

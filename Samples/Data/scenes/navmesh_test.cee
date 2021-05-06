@@ -1,0 +1,67 @@
+{
+    "type_name": "scene",
+    "variable_name": "navmesh_test",
+    "members": [
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 4059405774
+        },
+        {
+            "type_name": "spaces",
+            "variable_name": "spaces",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "space",
+                    "variable_name": "Unnamed_space_0",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 2461106939
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "space",
+                    "variable_name": "Terrain",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 1910325271
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "space",
+                    "variable_name": "UISystemSpace",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 2360861371
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "space",
+                    "variable_name": "Temp",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 3133519461
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        }
+    ],
+    "array": []
+}

@@ -1,0 +1,11 @@
+    namespace Serialization {
+        class PersistenceRequest<T> {
+            +Execute()
+            +WriteDataToFile()
+            +ReadDataFromFile()
+            +GetData()
+            +GetFolderName()
+            +GetFileName()
+            +GetRelativePath()
+        }
+    }

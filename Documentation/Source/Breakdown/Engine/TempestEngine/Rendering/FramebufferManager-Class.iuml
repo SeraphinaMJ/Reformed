@@ -1,0 +1,16 @@
+    namespace Graphics::Rendering {
+        class FramebufferManager {
+            +CreateFrameBuffer()
+            +GetFramebuffer()
+            +CreateBufferPool()
+            +AddFrameToBufferPool()
+            +AttachRenderPool()
+            +ClearBuffer()
+            +GetBufferPool()
+            +GetCapturePool()
+            +RenderToScreen()
+            +SaveRenderToCapturePool()
+            +CreateCapturePool()
+            +ResetBufferPool()
+        }
+    }

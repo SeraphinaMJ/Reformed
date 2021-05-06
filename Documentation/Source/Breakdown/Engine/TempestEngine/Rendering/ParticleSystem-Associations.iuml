@@ -1,0 +1,8 @@
+    namespace Graphics::Particles {
+        ParticleSystem o-> Graphics::Rendering::ShaderProgram : m_shaderProgram
+        ParticleSystem -- SceneManagement::GameObject
+        ParticleSystem o-> SimpleTexture : m_particleTexture
+        ParticleSystem *-> ParticleBuffer : m_buffer
+        ParticleSystem *-> ParticleMesh : m_mesh
+        ParticleSystem *-> "*" CPU_Particle : m_particlePool
+    }

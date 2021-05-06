@@ -1,0 +1,27 @@
+    namespace SceneManagement {
+        class Space {
+            +GetObjectCount()
+            +IsEnabled()
+            +GetID()
+            +ToTypeID()
+            +GetName()
+            +SetName()
+            +GetScene()
+            +SetScene()
+            +MoveGameObject()
+            +InstantiateGameObject()
+            +DestroyGameObject()
+            +GetGameObjectList()
+            +GetGameObjectByID()
+            +GetGameObjectByName()
+            +GetTypeLevelGameObjectList()
+            +DontDeleteOnLoad()
+            +DeleteOnLoad()
+            +GetDeleteOnLoad()
+            +SetEnabled()
+            +Read()
+            +Write()
+            +GetShouldSerialize()
+            +SetShouldSerialize()
+        }
+    }

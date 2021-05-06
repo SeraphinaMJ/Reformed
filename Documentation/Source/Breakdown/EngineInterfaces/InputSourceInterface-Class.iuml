@@ -1,0 +1,12 @@
+    namespace External {
+        interface InputSourceInterface {
+            +SetKeyboardCallback()
+            +SetMousePosCallback()
+            +SetMouseButtonCallback()
+            +SetGamepadButtonCallback()
+            +SetGamepadAxisCallbackFunction()
+            +SetConnectionStateCallbackFunction()
+            +MapLetterToScancode()
+            +MapMouseButtonToScancode()
+        }
+    }

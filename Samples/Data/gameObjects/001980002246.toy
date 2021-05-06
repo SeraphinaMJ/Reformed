@@ -1,0 +1,309 @@
+{
+    "type_name": "gameObject",
+    "variable_name": "reticle_emitter",
+    "members": [
+        {
+            "type_name": "childList",
+            "variable_name": "childList",
+            "members": [],
+            "array": []
+        },
+        {
+            "type_name": "components",
+            "variable_name": "components",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "class transform",
+                    "variable_name": "class transform",
+                    "members": [
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "position",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "quaternion",
+                            "variable_name": "rotation",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "scale",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 1.0
+                                }
+                            ],
+                            "array": []
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "class particleEmitter",
+                    "variable_name": "class particleEmitter",
+                    "members": [
+                        {
+                            "type_name": "aa_emitterShape",
+                            "variable_name": "aa_emitterShape",
+                            "members": [],
+                            "array": [
+                                {
+                                    "type_name": "int",
+                                    "variable_name": "shapeType",
+                                    "data": 5
+                                }
+                            ]
+                        },
+                        {
+                            "type_name": "int",
+                            "variable_name": "angle",
+                            "data": 50
+                        },
+                        {
+                            "type_name": "int",
+                            "variable_name": "arc",
+                            "data": 180
+                        },
+                        {
+                            "type_name": "int",
+                            "variable_name": "batchCount",
+                            "data": 0
+                        },
+                        {
+                            "type_name": "int",
+                            "variable_name": "batchSize",
+                            "data": 30
+                        },
+                        {
+                            "type_name": "colorRange",
+                            "variable_name": "endColorRange",
+                            "members": [],
+                            "array": [
+                                {
+                                    "type_name": "color4",
+                                    "variable_name": "color4",
+                                    "members": [
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "a",
+                                            "data": 1.0
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "b",
+                                            "data": 1.0
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "g",
+                                            "data": 0.0
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "r",
+                                            "data": 0.0
+                                        }
+                                    ],
+                                    "array": []
+                                },
+                                {
+                                    "type_name": "color4",
+                                    "variable_name": "color4",
+                                    "members": [
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "a",
+                                            "data": 1.0
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "b",
+                                            "data": 1.0
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "g",
+                                            "data": 0.0
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "r",
+                                            "data": 0.9725155830383301
+                                        }
+                                    ],
+                                    "array": []
+                                }
+                            ]
+                        },
+                        {
+                            "type_name": "int",
+                            "variable_name": "interval",
+                            "data": 0
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "isTorusRan",
+                            "data": true
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "lifeMax",
+                            "data": 0.4000000059604645
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "lifeMin",
+                            "data": 0.30000001192092898
+                        },
+                        {
+                            "type_name": "int",
+                            "variable_name": "maxParticles",
+                            "data": 30
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "on",
+                            "data": true
+                        },
+                        {
+                            "type_name": "int",
+                            "variable_name": "radious",
+                            "data": 2
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "sizeMax",
+                            "data": 0.30000001192092898
+                        },
+                        {
+                            "type_name": "float",
+                            "variable_name": "sizeMin",
+                            "data": 0.10000000149011612
+                        },
+                        {
+                            "type_name": "colorRange",
+                            "variable_name": "startColorRange",
+                            "members": [],
+                            "array": [
+                                {
+                                    "type_name": "color4",
+                                    "variable_name": "color4",
+                                    "members": [
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "a",
+                                            "data": 1.0
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "b",
+                                            "data": 1.0
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "g",
+                                            "data": 0.8160676956176758
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "r",
+                                            "data": 0.0
+                                        }
+                                    ],
+                                    "array": []
+                                },
+                                {
+                                    "type_name": "color4",
+                                    "variable_name": "color4",
+                                    "members": [
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "a",
+                                            "data": 1.0
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "b",
+                                            "data": 1.0
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "g",
+                                            "data": 0.0
+                                        },
+                                        {
+                                            "type_name": "float",
+                                            "variable_name": "r",
+                                            "data": 0.10993671417236328
+                                        }
+                                    ],
+                                    "array": []
+                                }
+                            ]
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        },
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 1980002246
+        }
+    ],
+    "array": []
+}

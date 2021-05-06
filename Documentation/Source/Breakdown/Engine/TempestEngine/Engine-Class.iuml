@@ -1,0 +1,18 @@
+    namespace Core {    
+        class Engine {
+            -m_is_quit_requested : bool
+            +Initialize()
+            +Update()
+            +Render()
+            +Shutdown()
+            +IsQuitRequested()
+            +GetSceneManipulator()
+            +GetBundleManipulator()
+            +GetPersistenceManipulator()
+            +GetEngineMetadataManipulator()
+            +GetCameraManipulator()
+            +RequestQuit()
+            +GetCurrentScene() #FF0000
+        }
+    }
+    

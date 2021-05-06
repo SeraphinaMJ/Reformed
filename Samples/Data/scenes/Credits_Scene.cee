@@ -1,0 +1,31 @@
+{
+    "type_name": "scene",
+    "variable_name": "Credits_Scene",
+    "members": [
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 405065008
+        },
+        {
+            "type_name": "spaces",
+            "variable_name": "spaces",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "space",
+                    "variable_name": "Unnamed_space_0",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 27018170
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        }
+    ],
+    "array": []
+}

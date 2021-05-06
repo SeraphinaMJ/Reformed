@@ -1,0 +1,5 @@
+    namespace SystemManagement {
+        SystemManagerSTA o-> "*" SystemBase : m_system_master
+        SystemManagerSTA o-down-> "*" SystemBundle : m_system_bundle_master
+        SystemManagerSTA o-> GameObjectFiltering::GameObjectGatherer : m_go_gatherer
+    }

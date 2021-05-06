@@ -1,0 +1,9 @@
+    !include ../../Breakdown/Engine/TempestEngine/GameObjectFiltering/ComponentTypeSet-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/GameObjectFiltering/GameObjectFilter-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/GameObjectFiltering/ListBuilder-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/GameObjectGatherer-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/GameObjectCollector-Class.iuml
+
+    !include ../../Breakdown/Engine/TempestEngine/GameObjectFiltering/GameObjectFilter-Associations.iuml
+    !include ../../Breakdown/Engine/TempestEngine/GameObjectFiltering/ListBuilder-Associations.iuml
+

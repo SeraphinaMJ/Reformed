@@ -1,0 +1,9 @@
+    !include ../../Breakdown/Engine/TempestEngine/PersistenceSystem-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/JsonSerialization-Class.iuml
+    !include ../../Breakdown/SerializationCore/TypeRT-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/PersistenceRequest-Class.iuml
+
+    !include ../../Breakdown/Engine/TempestEngine/PersistenceSystem-Associations.iuml
+    !include ../../Breakdown/Engine/TempestEngine/JsonSerialization-Associations.iuml
+    !include ../../Breakdown/SerializationCore/TypeRT-Associations.iuml
+

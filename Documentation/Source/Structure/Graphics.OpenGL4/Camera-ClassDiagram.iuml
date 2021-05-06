@@ -1,0 +1,7 @@
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/CameraSystem-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/CameraBase-Class.iuml
+
+
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/CameraSystem-Associations.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Rendering/CameraBase-Associations.iuml
+

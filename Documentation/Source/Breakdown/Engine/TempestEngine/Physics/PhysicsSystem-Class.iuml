@@ -1,0 +1,24 @@
+    namespace Physics.Bullet {
+        class PhysicsSystem {
+            {static} +GetName()
+            +Name()
+            +OnInitialize()
+            +OnStartFrame()
+            +OnUpdate()
+            +OnEndFrame()
+            +OnShutdown()
+            +OnLevelLoad()
+            +OnLevelUnload()
+            +SetGlobalGravity()
+            +GetGlobalGravity()
+            +GetObjectRayCast()
+            +GetObjectsWithinRadius()
+            +AddPhysicsObjectToWorld()
+            +SetSimulationTimeStep()
+            +ProcessCallback()
+            +InitializeBullet()
+            +AddALlObjectsToBullet()
+            +UpdateOUrObjectsFromBullet()
+        }
+        PhysicsSystem --|> SystemManagement::SystemBase
+    }

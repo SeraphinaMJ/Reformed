@@ -1,0 +1,10 @@
+    namespace Core {
+        class Configuration {
+            -Asset_Path
+            -Data_Path
+            -Initial_Window_Show
+            -No_Initial_Scene
+            -Initial_Scene_Name
+        }
+    }
+    

@@ -1,0 +1,13 @@
+    !include ../../Breakdown/ComponentCore/ComponentType-Class.iuml
+    !include ../../Breakdown/ComponentCore/Component-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/SceneManagement/ComponentList-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/SceneManagement/GameObject-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/SceneManagement/Scene-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/SceneManagement/Space-Class.iuml
+    
+    !include ../../Breakdown/ComponentCore/Component-Associations.iuml
+    !include ../../Breakdown/Engine/TempestEngine/SceneManagement/ComponentList-Associations.iuml
+    !include ../../Breakdown/Engine/TempestEngine/SceneManagement/GameObject-Associations.iuml
+    !include ../../Breakdown/Engine/TempestEngine/SceneManagement/Space-Associations.iuml
+    !include ../../Breakdown/Engine/TempestEngine/SceneManagement/Scene-Associations.iuml
+    

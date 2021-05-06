@@ -1,0 +1,43 @@
+{
+    "type_name": "scene",
+    "variable_name": "Unnamed_scene",
+    "members": [
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 297963434
+        },
+        {
+            "type_name": "spaces",
+            "variable_name": "spaces",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "space",
+                    "variable_name": "UISystemSpace",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 1462285311
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "space",
+                    "variable_name": "Unnamed_space_1",
+                    "members": [
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "id",
+                            "data": 328476546
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        }
+    ],
+    "array": []
+}

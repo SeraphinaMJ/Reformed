@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)ThirdParty\imgui-docking;$(SolutionDir)ThirdParty\imgui-docking\examples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>IMGUI_IMPL_OPENGL_LOADER_GLEW;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ThirdParty\imgui-docking\examples\imgui_impl_glfw.cpp" />
+    <ClCompile Include="ThirdParty\imgui-docking\examples\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="ThirdParty\imgui-docking\imgui.cpp" />
+    <ClCompile Include="ThirdParty\imgui-docking\imgui_demo.cpp" />
+    <ClCompile Include="ThirdParty\imgui-docking\imgui_draw.cpp" />
+    <ClCompile Include="ThirdParty\imgui-docking\imgui_widgets.cpp" />
+    <ClCompile Include="ThirdParty\imgui-docking\misc\cpp\imgui_stdlib.cpp" />
+    <ClInclude Include="ThirdParty\imgui-docking\examples\imgui_impl_glfw.h" />
+    <ClInclude Include="ThirdParty\imgui-docking\examples\imgui_impl_opengl3.h" />
+    <ClInclude Include="ThirdParty\imgui-docking\imgui.h" />
+    <ClInclude Include="ThirdParty\imgui-docking\misc\cpp\imgui_stdlib.h" />
+
+  </ItemGroup>
+</Project>

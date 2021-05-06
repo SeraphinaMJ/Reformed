@@ -1,0 +1,7 @@
+    namespace Graphics::Rendering {
+        class MaterialManager {
+            +CreateMaterial()
+            +AddMaterial()
+            +GetMaterial()
+        }
+    }

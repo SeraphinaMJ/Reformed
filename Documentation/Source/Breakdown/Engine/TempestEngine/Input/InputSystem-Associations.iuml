@@ -1,0 +1,5 @@
+    namespace InputSystem {
+        InputSystem o-> External::ExternalWindowInterface : m_inputSource
+        InputSystem o-> External::RenderContextInterface : m_base_interface
+        InputSystem o-> External::InputSourceInterface : m_input_source_ptr
+    }

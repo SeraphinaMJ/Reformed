@@ -1,0 +1,7 @@
+    namespace Communications {
+        class MessageQueue {
+            +Send()
+            +OnHandleMessage()
+        }
+
+    }

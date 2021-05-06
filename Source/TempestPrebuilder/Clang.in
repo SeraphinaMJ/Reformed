@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.15.0)
+
+project(clang-download NONE)
+
+include(ExternalProject)
+ExternalProject_Add(clang
+    GIT_REPOSITORY https://github.com/llvm/llvm-project.git
+    GIT_TAG "llvmorg-9.0.0"
+    SOURCE_DIR "${CMAKE_BINARY_DIR}/clang-src"
+    BINARY_DIR "${CMAKE_BINARY_DIR}/clang-build"
+    CONFIGURE_COMMAND ""
+    BUILD_COMMAND ""
+    INSTALL_COMMAND ""
+    TEST_COMMAND ""
+)

@@ -1,0 +1,4 @@
+    namespace SceneManagement {
+        ComponentList *-up-> ComponentTypeSet : currentComponentTypeSet
+        ComponentList o-up-> Component
+    }

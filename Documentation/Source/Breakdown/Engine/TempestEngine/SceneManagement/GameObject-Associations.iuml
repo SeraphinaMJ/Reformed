@@ -1,0 +1,6 @@
+    namespace SceneManagement {
+        GameObject *-> ComponentList : component_list
+        GameObject o-> GameObject : parent
+        GameObject *-> "*" GameObject : children
+        GameObject o-> Space : contianing_space
+    }

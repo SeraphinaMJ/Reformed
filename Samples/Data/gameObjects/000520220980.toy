@@ -1,0 +1,160 @@
+{
+    "type_name": "gameObject",
+    "variable_name": "Duck",
+    "members": [
+        {
+            "type_name": "childList",
+            "variable_name": "childList",
+            "members": [],
+            "array": []
+        },
+        {
+            "type_name": "components",
+            "variable_name": "components",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "class transform",
+                    "variable_name": "class transform",
+                    "members": [
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "position",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": -3.6663904190063478
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 3.560589551925659
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": -7.720768451690674
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "quaternion",
+                            "variable_name": "rotation",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": 0.9398519992828369
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": -0.05737513303756714
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.19807195663452149
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.272311806678772
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "scale",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 2.74953556060791
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 2.7483034133911135
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 2.6641013622283937
+                                }
+                            ],
+                            "array": []
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "class renderer",
+                    "variable_name": "class renderer",
+                    "members": [
+                        {
+                            "type_name": "string",
+                            "variable_name": "computeShaderName",
+                            "data": "shader.comp"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "fontName",
+                            "data": "arial.ttf"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "fragmentShaderName",
+                            "data": "shader.frag"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "geometryShaderName",
+                            "data": "shader.geom"
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "hasMaterial",
+                            "data": true
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "materialName",
+                            "data": "duck.mtl"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "modelName",
+                            "data": "duck.obj"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "tessellationControlShaderName",
+                            "data": "shader.tcon"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "tessellationEvaluationShaderName",
+                            "data": "shader.tval"
+                        },
+                        {
+                            "type_name": "string",
+                            "variable_name": "vertexShaderName",
+                            "data": "shader.vert"
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        },
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 520220980
+        }
+    ],
+    "array": []
+}

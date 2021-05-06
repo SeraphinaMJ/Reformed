@@ -1,0 +1,13 @@
+    namespace SceneManagement {
+        class ComponentList {
+            +GetComponentTypeSet()
+            +Add()
+            +Remove()
+            +GetComponent()
+            +GetComponents()
+            +GetAllComponents()
+            +GetComponentsByString()
+            +GetComponentsByType()
+            +GetComponentCount()
+        }
+    }

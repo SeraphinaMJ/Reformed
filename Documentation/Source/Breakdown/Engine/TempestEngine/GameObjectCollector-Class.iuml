@@ -1,0 +1,5 @@
+    namespace GameObjectFiltering {
+        interface GameObjectCollector {
+            +UpdateGameObject()
+        }
+    }

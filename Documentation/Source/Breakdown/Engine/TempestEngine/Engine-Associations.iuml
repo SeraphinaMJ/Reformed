@@ -1,0 +1,8 @@
+    namespace Core {
+        Engine *-> SystemManagement::SystemManagerInterface : m_system_manager
+        Engine *-> GameObjectFiltering::GameObjectFilter_ : m_go_filter
+        Engine *-left-> Configuration : m_config
+        Engine o-up-> External::ExternalWindowInterface : m_window_ptr
+        Engine o-up-> External::RenderContextInterface : m_render_context_ptr
+        Engine o-up-> External::InputSourceInterface : m_input_source_ptr
+    }

@@ -1,0 +1,4 @@
+    namespace Serialization {
+        TypeRT *-> "*" TypeRT : m_members
+        TypeRT *-> "*" TypeRT : m_array
+    }

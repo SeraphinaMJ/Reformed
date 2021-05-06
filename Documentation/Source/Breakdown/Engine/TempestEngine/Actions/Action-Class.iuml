@@ -1,0 +1,16 @@
+    namespace Animation {
+        class ActionHandle
+        class Action {
+            +Update()
+            +Start()
+            +GetHandle()
+            +IsRunning()
+            +IsComplete()
+            #Complete()
+            #Abort()
+            {abstract} #OnUpdate()
+            #OnStart()
+            #OnComplete()
+        }
+    }
+    

@@ -1,0 +1,7 @@
+    namespace Graphics::Rendering {
+        class VertexArrayManager {
+            +CreateArrayBuffer()
+            +GetVertexArrayBuffer()
+            +BuildFullScreenQuad()
+        }
+    }

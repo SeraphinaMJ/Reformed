@@ -1,0 +1,5 @@
+    namespace Graphics::Rendering {
+        FramebufferManager *-> "*" Framebuffer : m_framebuffers
+        FramebufferManager *-> "*" Framebuffer : m_capturePools
+        FramebufferManager *-> "*" RenderPool : m_renderPools
+    }

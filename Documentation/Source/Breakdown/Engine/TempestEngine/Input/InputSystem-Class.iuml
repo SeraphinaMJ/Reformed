@@ -1,0 +1,13 @@
+    namespace InputSystem {
+        class InputSystem {
+            +MapLetterToScancode()
+            +AddInputSource()
+            {static} +GetName()
+            +Name()
+            {static} +GetAllKeys()
+            #OnInitialize()
+            #OnStartFrame()
+            #OnShutdown()
+        }
+        InputSystem --|> SystemManagement::SystemBase
+    }

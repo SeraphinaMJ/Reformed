@@ -1,0 +1,1016 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TempestEngine\Rendering">
+      <UniqueIdentifier>{a34a3d30-6c49-473a-a5dc-4f8832a3e003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine">
+      <UniqueIdentifier>{9bec38e2-249a-49d1-9bcb-4bfca128ad6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\External">
+      <UniqueIdentifier>{59add352-4207-440b-8d45-c3572294890c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\Actions">
+      <UniqueIdentifier>{60864fe3-4444-4257-a5c9-b4be6bfafa25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\GameScripts">
+      <UniqueIdentifier>{57f4929f-bd82-495c-92ce-6e8e50f39e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\Utility">
+      <UniqueIdentifier>{9838537b-68df-4c14-a205-35021533d203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\Audio">
+      <UniqueIdentifier>{e6c747db-2cb5-4020-82ea-e4b7d33537ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\SceneManagement">
+      <UniqueIdentifier>{1cec02fb-a972-4dce-a00a-4c9cc598f7ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\Components">
+      <UniqueIdentifier>{2fa22504-6f01-4706-8fdd-9379de0bb044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\Math">
+      <UniqueIdentifier>{a69ca247-92bc-4c3d-9d2d-5c54c96e49e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\Telemetry">
+      <UniqueIdentifier>{83d27e7b-5ab6-4c0d-a158-7def2e4f831b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\FlockDemo">
+      <UniqueIdentifier>{af68b413-2732-45bf-908a-6282fc2c446a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\Physics">
+      <UniqueIdentifier>{10b082c6-2268-48bc-b2c4-1968fca3d213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\SystemManagement">
+      <UniqueIdentifier>{ef6563b1-06de-4f11-bed8-b4a1b0fd6b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\Systems">
+      <UniqueIdentifier>{53ae8301-7ba7-4e69-a926-0652fd985e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\Input">
+      <UniqueIdentifier>{a230faed-5e9d-4c22-809c-4459f55d8239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\Platform">
+      <UniqueIdentifier>{fc542d9f-5ed7-4f02-be5e-bbfd5614af6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\Logging">
+      <UniqueIdentifier>{f42edf9f-adb3-4af5-bb05-259511f70e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\Threading">
+      <UniqueIdentifier>{0b84bab3-6718-4d69-ad5b-fe6edb2e05f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\Scripting">
+      <UniqueIdentifier>{6c896f12-0f20-45a7-8ce6-de802edc9170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\Messaging">
+      <UniqueIdentifier>{ae381aaa-fee1-4c3b-aaa1-e12d133dd276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\GameObjectFiltering">
+      <UniqueIdentifier>{b7b771ad-2cc9-4cb6-8641-08c8941d4b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\scripts">
+      <UniqueIdentifier>{8515d1b2-e38d-44c1-847f-f854e0f71e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{45876c18-cc9e-4477-942f-ddae4380ad4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\Metadata">
+      <UniqueIdentifier>{57fdf612-6e81-4340-84a8-b3712e102378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\Utility\NavMesh">
+      <UniqueIdentifier>{36ab77f0-ce69-4f51-aa9c-78a933389214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TempestEngine\External\Events">
+      <UniqueIdentifier>{738c7fb5-9f6d-424b-b053-e3f5162578d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\TempestEngine\Rendering\VertexArrayManager.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\External\EngineMetadataManipulator.cpp">
+      <Filter>TempestEngine\External</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Actions\DelayAction.cpp">
+      <Filter>TempestEngine\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\External\CameraManipulator.cpp">
+      <Filter>TempestEngine\External</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Actions\ActionSystem.cpp">
+      <Filter>TempestEngine\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\GroundPoundScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\External\bundleManipulator.cpp">
+      <Filter>TempestEngine\External</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Utility\GeneralizedFileLoader.cpp">
+      <Filter>TempestEngine\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Audio\AudioComponent.cpp">
+      <Filter>TempestEngine\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\VertexBufferObject.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\GameManagerScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\PersistenceManipulator.cpp">
+      <Filter>TempestEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Engine.cpp">
+      <Filter>TempestEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\SceneManagement\UISystem.cpp">
+      <Filter>TempestEngine\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\CameraScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GamePadSystem.cpp">
+      <Filter>TempestEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\AudioScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Components\RigidBody.cpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\GraphicsSystem.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\GrabbableScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Utility\AssetManager.cpp">
+      <Filter>TempestEngine\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Math\MathFunctions.cpp">
+      <Filter>TempestEngine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Telemetry\SQLConnection.cpp">
+      <Filter>TempestEngine\Telemetry</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\ComponentFactory.cpp">
+      <Filter>TempestEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\IndexBufferObject.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Actions\Action.cpp">
+      <Filter>TempestEngine\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\PlayButtonScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\DynamiteScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\CameraSystem.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\Color.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\External\SceneManipulator.cpp">
+      <Filter>TempestEngine\External</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Math\Matrix4x4.cpp">
+      <Filter>TempestEngine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Physics\PhysicsSystem.cpp">
+      <Filter>TempestEngine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Telemetry\TelemetrySystem.cpp">
+      <Filter>TempestEngine\Telemetry</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Utility\Utilities.cpp">
+      <Filter>TempestEngine\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Components\AnimatorComponent.cpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\SystemManagement\SystemManagerSTA.cpp">
+      <Filter>TempestEngine\SystemManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameObjectTests.cpp">
+      <Filter>TempestEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GamepadControls.cpp">
+      <Filter>TempestEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\Windowing.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\DamagePrismScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\MeshDebug.cpp">
+      <Filter>TempestEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Serialization.cpp">
+      <Filter>TempestEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\MaterialManager.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\Shader.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Input\GamepadInputAdapter.cpp">
+      <Filter>TempestEngine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\TestingScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\PlayerControllerScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Reflection.cpp">
+      <Filter>TempestEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\ScriptMaps.cpp">
+      <Filter>TempestEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\SystemBase.cpp">
+      <Filter>TempestEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\SystemTask.cpp">
+      <Filter>TempestEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\LifetimeScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\SceneManagement\Scene.cpp">
+      <Filter>TempestEngine\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Platform\PlatformWindowing.cpp">
+      <Filter>TempestEngine\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Systems\FBXLoader.cpp">
+      <Filter>TempestEngine\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\SceneManagement\Space.cpp">
+      <Filter>TempestEngine\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\Texture.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Components\Renderer.cpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Logging\Logger.cpp">
+      <Filter>TempestEngine\Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\CameraBase.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Threading\JobManager.cpp">
+      <Filter>TempestEngine\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\ShaderManager.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\TransformTestScript.cpp">
+      <Filter>TempestEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\ShaderProgram.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\ShooterScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\LightTestScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Math\Quaternion.cpp">
+      <Filter>TempestEngine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Components\FBXFileComponent.cpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\SimpleTexture.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\LineMesh.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\Material.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Scripting\ScriptingSystem.cpp">
+      <Filter>TempestEngine\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\VertexArrayObject.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\LariatScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Math\Vector2.cpp">
+      <Filter>TempestEngine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Messaging\MessageQueue.cpp">
+      <Filter>TempestEngine\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Math\Vector3.cpp">
+      <Filter>TempestEngine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Math\Vector4.cpp">
+      <Filter>TempestEngine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Systems\AnimationSystem.cpp">
+      <Filter>TempestEngine\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\CubeTexture.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\Mesh.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\EnemyAIScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Components\Button.cpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Components\Camera.cpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\FrameBufferManager.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Components\Skybox.cpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\SceneManagement\Component.cpp">
+      <Filter>TempestEngine\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\SceneManagement\Transform.cpp">
+      <Filter>TempestEngine\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameObjectFiltering\GameObjectFilter.cpp">
+      <Filter>TempestEngine\GameObjectFiltering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Components\ScriptCPP.cpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\SceneManagement\ComponentList.cpp">
+      <Filter>TempestEngine\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Components\Light.cpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameObjectFiltering\ComponentTypeSet.cpp">
+      <Filter>TempestEngine\GameObjectFiltering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\ParticleMesh.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\SpawnerScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Components\InputComponent.cpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\ChangeSceneAfterDelayScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Threading\Task.cpp">
+      <Filter>TempestEngine\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Components\RenderTarget.cpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\GLDebug.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\menuControllerScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\CharacterStateScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\ParticleBuffer.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\ParticleSystem.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Messaging\MessagingSystem.cpp">
+      <Filter>TempestEngine\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\TextSampleScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\PersistenceSystem.cpp">
+      <Filter>TempestEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\SystemBundle.cpp">
+      <Filter>TempestEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\BombScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Actions\LerpAction.cpp">
+      <Filter>TempestEngine\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\RenderTargetScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\JumpPadScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\PersistenceRequest.cpp">
+      <Filter>TempestEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\TextRenderer.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Components\ParticleEmitter.cpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Utility\Debug.cpp">
+      <Filter>TempestEngine\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\TriangleMesh.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Telemetry\TelemetryComponent.cpp">
+      <Filter>TempestEngine\Telemetry</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\SceneManagement\GameObject.cpp">
+      <Filter>TempestEngine\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\InputTestScript.cpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\TextureManager.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\SystemManager.cpp">
+      <Filter>TempestEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Application.cpp">
+      <Filter>TempestEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Audio\AudioSystem.cpp">
+      <Filter>TempestEngine\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Events\EventSystem.cpp">
+      <Filter>TempestEngine\External\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\FrameBuffer.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Input\InputSystem.cpp">
+      <Filter>TempestEngine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameObjectFiltering\ListBuilder.cpp">
+      <Filter>TempestEngine\GameObjectFiltering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Rendering\MeshBuilder.cpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Precompiled.cpp">
+      <Filter>TempestEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\SceneManagement\SceneSystem.cpp">
+      <Filter>TempestEngine\SceneManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Utility\NavMeshGenerator.cpp">
+      <Filter>TempestEngine\Utility\NavMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\Math\Shapes.cpp">
+      <Filter>TempestEngine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TempestEngine\GameScripts\StressTestScript.cpp" />
+    <ClCompile Include="Engine\TempestEngine\SystemManagement\SystemMonitor.cpp" />
+    <ClCompile Include="Engine\TempestEngine\Replay\JumbotronComponent.cpp" />
+    <ClCompile Include="Engine\TempestEngine\GameScripts\PrebuildTestScript.cpp" />
+    <ClCompile Include="Engine\TempestEngine\External\AssetManipulator.cpp" />
+    <ClCompile Include="Engine\TempestEngine\Rendering\ProgramPipeline.cpp" />
+    <ClCompile Include="Engine\TempestEngine\Utility\TextureLoader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\TempestEngine\External\bundleManipulator.hpp">
+      <Filter>TempestEngine\External</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Utility\GeneralizedFileLoader.hpp">
+      <Filter>TempestEngine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Audio\AudioComponent.hpp">
+      <Filter>TempestEngine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\EnemyAIScript.h">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\VertexBufferObject.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Utility\AssetManager.hpp">
+      <Filter>TempestEngine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Audio\AE_AudioMath.hpp">
+      <Filter>TempestEngine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Actions\ActionSystem.hpp">
+      <Filter>TempestEngine\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\VertexArrayManager.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\External\EngineMetadataManipulator.hpp">
+      <Filter>TempestEngine\External</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Actions\DelayAction.hpp">
+      <Filter>TempestEngine\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\External\CameraManipulator.hpp">
+      <Filter>TempestEngine\External</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\PersistenceManipulator.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Components\RigidBody.hpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Engine.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\SceneManagement\UISystem.hpp">
+      <Filter>TempestEngine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\CameraScript.hpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GamePadSystem.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\GrabbableScript.hpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\GraphicsSystem.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Asset.h">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Math\MathFunctions.hpp">
+      <Filter>TempestEngine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\DynamiteScript.h">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\CameraSystem.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Telemetry\QueryableInterface.hpp">
+      <Filter>TempestEngine\Telemetry</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\IndexBufferObject.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Actions\Action.hpp">
+      <Filter>TempestEngine\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\PlayButtonScript.hpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Audio\AE_CircleBuffer.hpp">
+      <Filter>TempestEngine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\LightManager.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\Color.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\LeakDetection.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\GLDebug.h">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\ExternalWindowInterface.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\MaterialManager.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameObjectCollector.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\GameManagerScript.h">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\SystemManagement\SystemManagerInterface.hpp">
+      <Filter>TempestEngine\SystemManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\External\SceneManipulator.hpp">
+      <Filter>TempestEngine\External</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Utility\Utilities.hpp">
+      <Filter>TempestEngine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Components\AnimatorComponent.hpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\SceneManagement\ComponentType.hpp">
+      <Filter>TempestEngine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Physics\PhysicsSystem.hpp">
+      <Filter>TempestEngine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Telemetry\TelemetrySystem.hpp">
+      <Filter>TempestEngine\Telemetry</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\SystemManagement\SystemManagerSTA.hpp">
+      <Filter>TempestEngine\SystemManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\Windowing.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GamepadControls.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\DamagePrismScript.hpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\MeshDebug.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Math\Matrix4x4.hpp">
+      <Filter>TempestEngine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameObjectGatherer.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\Buffer.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Input\GamepadInputAdapter.hpp">
+      <Filter>TempestEngine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\Shader.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\TestingScript.hpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Audio\AudioEventHandler.hpp">
+      <Filter>TempestEngine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Platform\RenderContextInterface.hpp">
+      <Filter>TempestEngine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\InputTestScript.hpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\External\EngineMetadataManipulatorInterface.hpp">
+      <Filter>TempestEngine\External</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\DLLControl.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Reflection.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\ScriptMaps.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Events\TestEvent.hpp">
+      <Filter>TempestEngine\External\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Serialization.h">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\SystemBase.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\SystemTask.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\LifetimeScript.hpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Platform\PlatformWindowing.hpp">
+      <Filter>TempestEngine\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\SceneManagement\Scene.hpp">
+      <Filter>TempestEngine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Systems\FBXLoader.hpp">
+      <Filter>TempestEngine\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\SceneManagement\Space.hpp">
+      <Filter>TempestEngine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\Texture.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Components\Renderer.hpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Logging\Logger.hpp">
+      <Filter>TempestEngine\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Telemetry\SQLConnection.hpp">
+      <Filter>TempestEngine\Telemetry</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Messaging\Message.hpp">
+      <Filter>TempestEngine\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\CameraBase.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Threading\JobManager.hpp">
+      <Filter>TempestEngine\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\TypeData.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\ShaderManager.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\AudioScript.h">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\TransformTestScript.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\ShaderProgram.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\ParticleBuffer.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\CharacterStateScript.h">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\LightTestScript.hpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Math\Quaternion.hpp">
+      <Filter>TempestEngine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\SceneManagement\GameObject.hpp">
+      <Filter>TempestEngine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\FilterBase.h">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\LineMesh.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\Material.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Audio\AE_Events.hpp">
+      <Filter>TempestEngine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Audio\AudioSystem.h">
+      <Filter>TempestEngine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\VertexArrayObject.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Scripting\ScriptingSystem.hpp">
+      <Filter>TempestEngine\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Math\Vector2.hpp">
+      <Filter>TempestEngine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Messaging\MessageQueue.hpp">
+      <Filter>TempestEngine\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Math\Vector3.hpp">
+      <Filter>TempestEngine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Math\Vector4.hpp">
+      <Filter>TempestEngine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\CubeTexture.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Systems\AnimationSystem.hpp">
+      <Filter>TempestEngine\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\Mesh.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Components\Button.hpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\FrameBufferManager.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Components\Camera.hpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\AssetHandle.h">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\AssetLoader.h">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Precompiled.h">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Input\GamepadControlDefines.hpp">
+      <Filter>TempestEngine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\JumpPadScript.h">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\SceneManagement\Component.hpp">
+      <Filter>TempestEngine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\SceneManagement\Transform.hpp">
+      <Filter>TempestEngine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameObjectFiltering\GameObjectFilter.hpp">
+      <Filter>TempestEngine\GameObjectFiltering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Components\ScriptCPP.hpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\SceneManagement\ComponentList.hpp">
+      <Filter>TempestEngine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\ComponentFactory.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Components\Light.hpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameObjectFiltering\ComponentTypeSet.hpp">
+      <Filter>TempestEngine\GameObjectFiltering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Configuration.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Audio\AE_Objects.hpp">
+      <Filter>TempestEngine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\ParticleMesh.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Components\Skybox.h">
+      <Filter>TempestEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\BombScript.h">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Components\InputComponent.hpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Input\InputSourceInterface.hpp">
+      <Filter>TempestEngine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\ChangeSceneAfterDelayScript.hpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Threading\Task.hpp">
+      <Filter>TempestEngine\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Components\RenderTarget.hpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\menuControllerScript.hpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\PlayerControllerScript.hpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\ParticleSystem.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Messaging\MessagingSystem.hpp">
+      <Filter>TempestEngine\Messaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\TextSampleScript.hpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\PersistenceSystem.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\SystemBundle.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\LariatScript.h">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Actions\LerpAction.hpp">
+      <Filter>TempestEngine\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\GroundPoundScript.h">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\RenderTargetScript.hpp">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\PersistenceRequest.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\TextRenderer.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Components\ParticleEmitter.hpp">
+      <Filter>TempestEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Utility\Debug.hpp">
+      <Filter>TempestEngine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Audio\AE_AtomicWrapper.hpp">
+      <Filter>TempestEngine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\External\CameraManipulatorInterface.hpp">
+      <Filter>TempestEngine\External</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\External\SceneManipulatorInterface.hpp">
+      <Filter>TempestEngine\External</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\External\bundleManipulatorInterface.hpp">
+      <Filter>TempestEngine\External</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\PersistenceManipulatorInterface.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\TriangleMesh.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Telemetry\TelemetryComponent.hpp">
+      <Filter>TempestEngine\Telemetry</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Metadata\ComponentTypeDetails.hpp">
+      <Filter>TempestEngine\Metadata</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Events\EventTemplate.hpp">
+      <Filter>TempestEngine\External\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Components\FBXFileComponent.h">
+      <Filter>TempestEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\TextureManager.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\SystemManager.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Application.hpp">
+      <Filter>TempestEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Audio\AudioEngine.hpp">
+      <Filter>TempestEngine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Events\EventSystem.hpp">
+      <Filter>TempestEngine\External\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\FrameBuffer.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Input\InputSystem.hpp">
+      <Filter>TempestEngine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameObjectFiltering\ListBuilder.hpp">
+      <Filter>TempestEngine\GameObjectFiltering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\MeshBuilder.hpp">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\ShooterScript.h">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\SceneManagement\SceneSystem.hpp">
+      <Filter>TempestEngine\SceneManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Rendering\SimpleTexture.h">
+      <Filter>TempestEngine\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\GameScripts\SpawnerScript.h">
+      <Filter>TempestEngine\GameScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Utility\NavMeshGenerator.hpp">
+      <Filter>TempestEngine\Utility\NavMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\Math\Shapes.hpp">
+      <Filter>TempestEngine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TempestEngine\ComponentLists.h" />
+    <ClInclude Include="Engine\TempestEngine\GameScripts\StressTestScript.hpp" />
+    <ClInclude Include="Engine\TempestEngine\SystemManagement\SystemMonitor.hpp" />
+    <ClInclude Include="Engine\TempestEngine\Replay\JumbotronComponent.hpp" />
+    <ClInclude Include="Engine\TempestEngine\GameScripts\PrebuildTestScript.h" />
+    <ClInclude Include="Engine\TempestEngine\External\AssetManipulator.hpp" />
+    <ClInclude Include="Engine\TempestEngine\External\AssetManipulatorInterface.hpp" />
+    <ClInclude Include="Engine\TempestEngine\Rendering\SimpleTexture.hpp" />
+    <ClInclude Include="Engine\TempestEngine\Rendering\ProgramPipeline.hpp" />
+    <ClInclude Include="Engine\TempestEngine\Utility\TextureLoader.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="debuggerFormatting.natvis" />
+  </ItemGroup>
+</Project>

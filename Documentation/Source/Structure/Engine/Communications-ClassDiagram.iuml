@@ -1,0 +1,35 @@
+    !include ../../Breakdown/Engine/TempestEngine/Messaging/Message-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Messaging/MessageQueue-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Messaging/MessagingSystem-Class.iuml
+
+    !include ../../Breakdown/Engine/TempestEngine/Messaging/MessageQueue-Associations.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Messaging/MessagingSystem-Associations.iuml
+    
+    namespace Communications {
+
+        class EventSystem {
+            {static} +GetName()
+            Name()
+            #OnUpdate()
+            +RegisterEventCallback()
+            +QueueEvent()
+        }
+        namespace EventInternals {
+            class EventManager {
+                +ParseAllEvents()
+                +StartParsing()
+                +StopParsing()
+                +RegisterEventCallback()
+                +QueueEvent()
+            }
+            EventManager o--> "*" Communications::EventBase : EventQueue
+            EventManager o--> "*" Communications::EventCallback : Listeners
+        }
+        class EventCallback
+        class EventBase
+        class EventTemplate
+        EventSystem --|> SystemManagement::SystemBase
+        EventSystem --- EventBase
+        EventSystem *--> EventInternals::EventManager : m_EventManager
+        EventTemplate --|> EventBase
+    }

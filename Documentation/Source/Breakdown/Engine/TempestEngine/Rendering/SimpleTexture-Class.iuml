@@ -1,0 +1,14 @@
+    namespace Graphics::Particles {
+        class SimpleTexture {
+            +Load()
+            +GetBoundSlot()
+            +GetTexturePath()
+            +GetWidth()
+            +GetHeight()
+            +GetColorChannel()
+            +GetPixelData()
+            +SetPixelData()
+            +GetTextureHandle()
+        }
+        SimpleTexture --|> Graphics::Rendering::Texture
+    }

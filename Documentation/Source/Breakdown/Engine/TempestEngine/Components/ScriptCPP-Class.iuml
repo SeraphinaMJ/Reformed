@@ -1,0 +1,27 @@
+    namespace Scripting {
+        class ScriptCPP {
+            +UpdateFromTypeRT()
+            +ToTypeRT()
+            {Static}+GetType()
+            +Start()
+            +Update()
+            +Shutdown()
+            +IsUnstarted()
+            +IsRunning()
+            +SendEvent()
+            +RegisterEventCallback<ClassType,EventType,Function>()
+            #OnStart()
+            #OnUpdate()
+            #OnShutdown()
+            #GetSystem()
+            #GetSystemManager()
+            #Dt()
+            #GetComponent<T>()
+            #GetSystem<T>()
+            #FindObjectsByComponent<T>()
+            #FindObject()
+            #GetMySpace()
+            #CreateGameObjectOnMySpace()
+        }
+        ScriptCPP --|> SceneManagement::Component
+    }

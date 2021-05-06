@@ -1,0 +1,12 @@
+    namespace Animation {        
+        class ActionSystem {
+            +EnqueueLerpAction()
+            +EnqueueDelayAction()
+            {static} +GetName()
+            +Name()
+            #OnUpdate()
+            #OnShutdown()
+        }
+        ActionSystem --|> SystemManagement::SystemBase
+    }
+    

@@ -1,0 +1,188 @@
+{
+    "type_name": "gameObject",
+    "variable_name": "PlayButton",
+    "members": [
+        {
+            "type_name": "childList",
+            "variable_name": "childList",
+            "members": [],
+            "array": []
+        },
+        {
+            "type_name": "components",
+            "variable_name": "components",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "class transform",
+                    "variable_name": "class transform",
+                    "members": [
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "position",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 15.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "quaternion",
+                            "variable_name": "rotation",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": -0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": -0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": -0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "scale",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 15.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 10.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 15.0
+                                }
+                            ],
+                            "array": []
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "class button",
+                    "variable_name": "class button",
+                    "members": [
+                        {
+                            "type_name": "bool",
+                            "variable_name": "active",
+                            "data": true
+                        },
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "neighborDown",
+                            "members": [
+                                {
+                                    "type_name": "bool",
+                                    "variable_name": "mirrored",
+                                    "data": true
+                                },
+                                {
+                                    "type_name": "unsigned long",
+                                    "variable_name": "neighborID",
+                                    "data": 1020131324
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "unsigned long",
+                            "variable_name": "neighborUp",
+                            "members": [
+                                {
+                                    "type_name": "bool",
+                                    "variable_name": "mirrored",
+                                    "data": false
+                                },
+                                {
+                                    "type_name": "unsigned long",
+                                    "variable_name": "neighborID",
+                                    "data": 0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "pressed",
+                            "data": false
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "selectable",
+                            "data": true
+                        },
+                        {
+                            "type_name": "bool",
+                            "variable_name": "selected",
+                            "data": true
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "class uiSprite",
+                    "variable_name": "class uiSprite",
+                    "members": [
+                        {
+                            "type_name": "string",
+                            "variable_name": "texture",
+                            "data": "play_button.png"
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "class playButtonScript",
+                    "variable_name": "class playButtonScript",
+                    "members": [
+                        {
+                            "type_name": "string",
+                            "variable_name": "sceneName",
+                            "data": "Cool_Game"
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        },
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 3400720728
+        }
+    ],
+    "array": []
+}

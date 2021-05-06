@@ -1,0 +1,10 @@
+    namespace External {
+        interface RenderContextInterface {
+            +HandleSwapBuffersRequest()
+            +QueryContextChanged()
+            +QueryContextParameters()
+            +UpdateAssetPath() #FF0000
+            +Draw() #FF0000
+            +UpdateCameraMatrices() #FF0000
+        }
+    }

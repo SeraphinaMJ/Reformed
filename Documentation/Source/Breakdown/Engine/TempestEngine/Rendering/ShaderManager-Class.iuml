@@ -1,0 +1,7 @@
+    namespace Graphics::Rendering {
+        class ShaderManager {
+            +CreateShaderProgram()
+            +GetShaderProgram()
+            +GetShader()
+        }
+    }

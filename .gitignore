@@ -1,0 +1,31 @@
+
+#ImGui saves
+/Source/ImGui.ini
+
+#build directory
+/Binaries
+/Documentation/Build
+
+#Visual Studio files
+*.vcxproj.user
+*.DotSettings.user
+/Source/.vs
+*~*.TMP
+
+#Directories from execution of project
+/Samples/Data/logs/*
+/Samples/Data/temp/*
+!/Samples/Data/logs/aa_readme.txt
+
+/.vs/slnx.sqlite
+
+/Programs/CodeCounting/STICodeCount\.csv
+/Documentation/Design/workspace/
+*.vpp.bak*
+*.vpp.lck
+
+#Vim Files
+*.swp
+
+#.orig files created by merge tools
+*.orig

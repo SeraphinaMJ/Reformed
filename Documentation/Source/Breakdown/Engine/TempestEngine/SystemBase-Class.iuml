@@ -1,0 +1,25 @@
+    namespace SystemManagement {
+        class SystemBase {
+            +Name()
+            +Initialize()
+            +StartFrame()
+            +Update()
+            +EndFrame()
+            +Shutdown()
+            +HandleMessage()
+            +GetState()
+            +GetDT()
+            +UpdateDT()
+            +SetDesiredFrameTime()
+            #OnInitialize()
+            #OnLevelLoad()
+            #OnStartFrame()
+            #OnUpdate()
+            #OnEndFrame()
+            #OnLevelUnload()
+            #OnPreShutdown()
+            #OnShutdown()
+            #OnHandleMessage()
+            #GetSystemManager()
+        }
+    }

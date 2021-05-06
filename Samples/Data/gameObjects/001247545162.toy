@@ -1,0 +1,390 @@
+{
+    "type_name": "gameObject",
+    "variable_name": "uiSystemGameObject",
+    "members": [
+        {
+            "type_name": "childList",
+            "variable_name": "childList",
+            "members": [],
+            "array": []
+        },
+        {
+            "type_name": "components",
+            "variable_name": "components",
+            "members": [],
+            "array": [
+                {
+                    "type_name": "class transform",
+                    "variable_name": "class transform",
+                    "members": [
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "position",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "quaternion",
+                            "variable_name": "rotation",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "w",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 0.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 0.0
+                                }
+                            ],
+                            "array": []
+                        },
+                        {
+                            "type_name": "vector3",
+                            "variable_name": "scale",
+                            "members": [
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "x",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "y",
+                                    "data": 1.0
+                                },
+                                {
+                                    "type_name": "float",
+                                    "variable_name": "z",
+                                    "data": 1.0
+                                }
+                            ],
+                            "array": []
+                        }
+                    ],
+                    "array": []
+                },
+                {
+                    "type_name": "class inputComponent",
+                    "variable_name": "class inputComponent",
+                    "members": [
+                        {
+                            "type_name": "string",
+                            "variable_name": "context",
+                            "data": ""
+                        },
+                        {
+                            "type_name": "nameToAxisMap",
+                            "variable_name": "nameToAxisMap",
+                            "members": [],
+                            "array": []
+                        },
+                        {
+                            "type_name": "nameToControllerMap",
+                            "variable_name": "nameToControllerMap",
+                            "members": [],
+                            "array": []
+                        },
+                        {
+                            "type_name": "nameToCursorMap",
+                            "variable_name": "nameToCursorMap",
+                            "members": [],
+                            "array": [
+                                {
+                                    "type_name": "nameToCursorMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "cursor",
+                                            "data": 0
+                                        },
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "mouse"
+                                        }
+                                    ],
+                                    "array": []
+                                }
+                            ]
+                        },
+                        {
+                            "type_name": "nameToGamepadAxisMap",
+                            "variable_name": "nameToGamepadAxisMap",
+                            "members": [],
+                            "array": []
+                        },
+                        {
+                            "type_name": "nameToGamepadButtonMap",
+                            "variable_name": "nameToGamepadButtonMap",
+                            "members": [],
+                            "array": [
+                                {
+                                    "type_name": "nameToGamepadButtonMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "button",
+                                            "data": 2
+                                        },
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "controllerID",
+                                            "data": 0
+                                        },
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "left"
+                                        }
+                                    ],
+                                    "array": []
+                                },
+                                {
+                                    "type_name": "nameToGamepadButtonMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "button",
+                                            "data": 0
+                                        },
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "controllerID",
+                                            "data": 0
+                                        },
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "up"
+                                        }
+                                    ],
+                                    "array": []
+                                },
+                                {
+                                    "type_name": "nameToGamepadButtonMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "button",
+                                            "data": 12
+                                        },
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "controllerID",
+                                            "data": 0
+                                        },
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "enter"
+                                        }
+                                    ],
+                                    "array": []
+                                },
+                                {
+                                    "type_name": "nameToGamepadButtonMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "button",
+                                            "data": 3
+                                        },
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "controllerID",
+                                            "data": 0
+                                        },
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "right"
+                                        }
+                                    ],
+                                    "array": []
+                                },
+                                {
+                                    "type_name": "nameToGamepadButtonMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "button",
+                                            "data": 1
+                                        },
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "controllerID",
+                                            "data": 0
+                                        },
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "down"
+                                        }
+                                    ],
+                                    "array": []
+                                }
+                            ]
+                        },
+                        {
+                            "type_name": "nameToLetterMap",
+                            "variable_name": "nameToLetterMap",
+                            "members": [],
+                            "array": [
+                                {
+                                    "type_name": "nameToLetterMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "letter",
+                                            "data": 74
+                                        },
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "left"
+                                        }
+                                    ],
+                                    "array": []
+                                },
+                                {
+                                    "type_name": "nameToLetterMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "letter",
+                                            "data": 73
+                                        },
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "up"
+                                        }
+                                    ],
+                                    "array": []
+                                },
+                                {
+                                    "type_name": "nameToLetterMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "letter",
+                                            "data": 80
+                                        },
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "enter"
+                                        }
+                                    ],
+                                    "array": []
+                                },
+                                {
+                                    "type_name": "nameToLetterMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "letter",
+                                            "data": 76
+                                        },
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "right"
+                                        }
+                                    ],
+                                    "array": []
+                                },
+                                {
+                                    "type_name": "nameToLetterMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "letter",
+                                            "data": 75
+                                        },
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "down"
+                                        }
+                                    ],
+                                    "array": []
+                                }
+                            ]
+                        },
+                        {
+                            "type_name": "nameToMouseButtonMap",
+                            "variable_name": "nameToMouseButtonMap",
+                            "members": [],
+                            "array": [
+                                {
+                                    "type_name": "nameToMouseButtonMapEntry",
+                                    "variable_name": "",
+                                    "members": [
+                                        {
+                                            "type_name": "unsigned int",
+                                            "variable_name": "mouseButton",
+                                            "data": 0
+                                        },
+                                        {
+                                            "type_name": "string",
+                                            "variable_name": "name",
+                                            "data": "lmb"
+                                        }
+                                    ],
+                                    "array": []
+                                }
+                            ]
+                        }
+                    ],
+                    "array": []
+                }
+            ]
+        },
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 1247545162
+        }
+    ],
+    "array": []
+}

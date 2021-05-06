@@ -1,0 +1,8 @@
+    namespace Serialization {
+        class JsonSerialization {
+            {static} +TypeToStream()
+            {static} +StreamToType()
+            {static} -Type_to_document()
+            {static} -Document_to_type()
+        }
+    }

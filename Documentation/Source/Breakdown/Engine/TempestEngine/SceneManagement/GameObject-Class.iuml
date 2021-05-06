@@ -1,0 +1,27 @@
+    namespace SceneManagement {
+        class GameObject {
+            +GetID()
+            +Read()
+            +Write()
+            +GetName()
+            +SetName()
+            +ToTypeRT()
+            +ApplyFromTypeRT()
+            +GetComponentTypeSet()
+            +AddComponent()
+            +RemoveComponent()
+            +GetComponent()
+            +GetComponents()
+            +GetAllComponents()
+            +GetComponentCount()
+            +GetParent()
+            +DetachFromParent()
+            +SetParent()
+            +IsTopLevelObject()
+            +GetChildren()
+            +AddChild()
+            +RemoveChild()
+            +GetSpace()
+            +CloneObject()
+        }
+    }

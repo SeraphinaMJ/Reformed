@@ -1,0 +1,11 @@
+    !include ../../Breakdown/Engine/TempestEngine/SystemManagement/SystemManagerInterface-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/SystemBase-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/SystemBundle-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/SystemManager-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/SystemManagement/SystemManagerSTA-Class.iuml
+
+
+    !include ../../Breakdown/Engine/TempestEngine/SystemManager-Associations.iuml
+    !include ../../Breakdown/Engine/TempestEngine/SystemManagement/SystemManagerSTA-Associations.iuml
+    !include ../../Breakdown/Engine/TempestEngine/SystemBundle-Associations.iuml
+

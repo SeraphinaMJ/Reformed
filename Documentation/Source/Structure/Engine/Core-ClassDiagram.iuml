@@ -1,0 +1,3 @@
+    !include ../../Breakdown/Engine/TempestEngine/Engine-Class.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Engine-Associations.iuml
+    !include ../../Breakdown/Engine/TempestEngine/Configuration-Class.iuml

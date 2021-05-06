@@ -1,0 +1,13 @@
+    namespace Communications {
+        class MessagingSystem {
+            +Send()
+            +OnHandleMessage()
+            {static} +GetName()
+            +Name()
+            #OnInitialize()
+            #OnUpdate()
+            #OnShutdown()
+        }
+        MessagingSystem --|> SystemManagement::SystemBase
+    }
+    

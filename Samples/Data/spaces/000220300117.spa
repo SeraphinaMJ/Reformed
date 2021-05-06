@@ -1,0 +1,23 @@
+{
+    "type_name": "space",
+    "variable_name": "WaypointGraph",
+    "members": [
+        {
+            "type_name": "gameObjects",
+            "variable_name": "gameObjects",
+            "members": [],
+            "array": []
+        },
+        {
+            "type_name": "unsigned long",
+            "variable_name": "id",
+            "data": 220300117
+        },
+        {
+            "type_name": "bool",
+            "variable_name": "shouldDeleteOnLoad",
+            "data": true
+        }
+    ],
+    "array": []
+}
